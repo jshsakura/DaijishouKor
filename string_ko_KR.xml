@@ -106,7 +106,7 @@
 
     <!--  Daijishou library  -->
     <string name="replace_platform_warning_title">플랫폼 교체</string>
-    <string name="replace_platform_warning_description_format"짧은 이름이 \"%s\"인 플랫폼이 이미 Daijish?에 존재합니다. 가져온 플랫폼 \"%s\"에서 플랫폼 및 실행기 설정을 바꾸시겠습니까?\n\n??일부 설정이 변경될 수 있으니 주의하세요.</string>
+    <string name="replace_platform_warning_description_format">짧은 이름이 \"%s\"인 플랫폼이 이미 Daijish?에 존재합니다. 가져온 플랫폼 \"%s\"에서 플랫폼 및 실행기 설정을 바꾸시겠습니까?\n\n??일부 설정이 변경될 수 있으니 주의하세요.</string>
     <string name="package_format">패키지 \"%s\"</string>
     <string name="the_player_is_not_available_warning_format">기기에 \"%s\"이(가) 없습니다. 플레이 스토어에서 확인? 또한 \"찾기\"를 클릭하여 장치에서 사용 가능한 실행기를 감지할 수 있습니다.</string>
     <string name="the_player_is_not_available_warning_detect">찾기</string>
@@ -734,7 +734,7 @@
 
     <string name="resolving_tree_format">트리 형식을 확인 중: %s</string>
     <string name="analysing_format">분석 중: %s</string>
-    <string name="scraping_format"스크래핑: %s</string>
+    <string name="scraping_format">스크래핑: %s</string>
     <string name="adding_to_database">데이터베이스에 추가</string>
 
     <string name="daijishou_service_notification_content_title">다이지쇼 서비스</string>
