@@ -556,7 +556,7 @@
     <string name="widget_face_activity_grid_playable_item_played">해당 기간 동안 플레이한 아이템</string>
     <string name="widget_face_activity_grid_playable_item_viewed">해당 기간 동안 본 아이템</string>
 
-    <string name="widget_face_checklist_title">체크리스트</string>
+    <string name="widget_face_checklist_title">체크 리스트</string>
     <string name="widget_face_highlight_title">하이라이트</string>
     <string name="widget_face_highlight_subtitle">컬렉션.</string>
     <string name="widget_face_pin_and_play_title">플레이</string>
