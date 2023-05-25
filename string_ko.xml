@@ -1,0 +1,828 @@
+<!--
+  ~ Copyright(c) 2023 Daijishou project, TapiocaFox. All rights reserved.
+  ~ Created by TapiocaFox (magneticchen) on 21/03/2023, 09:36.
+  ~ Last modified 21/03/2023, 05:40.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Daijishō</string>
+    <string name="daijishou_launcher">Daijishō Launcher</string>
+    <string name="copyright_statement">copyright©2023 TapiocaFox.\nDesigned in Taiwan.</string>
+    <string name="page">페이지</string>
+    <string name="localization_credit">현지화 담당자:\nOpenCourse</string>
+
+    <!--  Global  -->
+    <string name="checking_for_upgrade_scripts">업그레이드 스크립트 확인중…</string>
+    <string name="launching_daijishou">Daijishō 기동중…</string>
+    <string name="rating_dialog_title">Daijishō를 즐겁게 사용하고 계신가요?</string>
+    <string name="rating_dialog_message">귀찮게 해서 미안해요.\nGoogle Play 스토어에서 Daijishō 가 마음에 든다면 리뷰를 남겨주세요!</string>
+    <string name="rating_dialog_positive">물론</string>
+    <string name="rating_dialog_negative">나중에</string>
+    <string name="progress_dialog_title">처리중</string>
+    <string name="progress_dialog_message">처리중입니다. 잠시만 기다려주세요.</string>
+    <string name="n_platforms_updated_format">%d 플랫폼이 업데이트되었습니다.</string>
+
+    <!--  Pages  -->
+    <string name="apps_page">앱</string>
+    <string name="continue_page">이어하기</string>
+    <string name="highlight_page">하이라이트</string>
+    <string name="platforms_page">플랫폼</string>
+    <string name="settings_page">설정</string>
+    <string name="widgets_page">위젯</string>
+
+    <string name="applications">애플리케이션</string>
+    <string name="highlight">하이라이트</string>
+    <string name="platforms">플랫폼</string>
+    <string name="settings">설정</string>
+    <string name="widget">위젯</string>
+
+    <!--  General  -->
+    <string name="play">플레이</string>
+    <string name="search">검색</string>
+    <string name="random">랜덤</string>
+    <string name="sync">동기화</string>
+    <string name="syncing">동기화 중</string>
+    <string name="share">공유</string>
+    <string name="paths">경로</string>
+    <string name="download">다운로드</string>
+    <string name="downloading">다운로드 중</string>
+    <string name="downloaded">다운로드 됨</string>
+    <string name="select">선택</string>
+    <string name="selected" tools:ignore="PrivateResource">선택함</string>
+    <string name="not_selected" tools:ignore="PrivateResource">선택안함</string>
+    <string name="go_top">맨위로</string>
+    <string name="edit_item">아이템 수정</string>
+    <string name="platform">플랫폼</string>
+    <string name="none">선택안함</string>
+    <string name="none_lowercase">선택안함</string>
+    <string name="disabled_period">비활성화.</string>
+    <string name="canceled_period">취소.</string>
+    <string name="cleared_period">클리어.</string>
+    <string name="restored_period">복원되었습니다.</string>
+    <string name="yes">네</string>
+    <string name="no">아니요</string>
+    <string name="done">완료</string>
+    <string name="finish">완료</string>
+    <string name="finished">완료됨</string>
+    <string name="refresh">새로고침</string>
+    <string name="refreshing">새로고침 중</string>
+    <string name="refreshed">새로고침 완료</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="_import">불러오기</string>
+    <string name="importing">불러오는 중</string>
+    <string name="login">로그인</string>
+    <string name="save">저장</string>
+    <string name="saved">저장됨</string>
+    <string name="replace">교체</string>
+    <string name="clear">클리어</string>
+    <string name="delete">삭제</string>
+    <string name="remove">삭제됨</string>
+    <string name="reset">초기화</string>
+    <string name="abort">중단</string>
+    <string name="aborted">중단됨</string>
+    <string name="aborted_period">중단됨.</string>
+    <string name="add">추가</string>
+    <string name="added_successfully">성공적으로 추가되었습니다.</string>
+    <string name="edit">수정</string>
+    <string name="edited_successfully">성공적으로 수정되었습니다.</string>
+    <string name="warning">경고</string>
+    <string name="loading">로딩 중</string>
+    <string name="back">뒤로</string>
+    <string name="options">옵션</string>
+    <string name="video">동영상</string>
+    <string name="copied">복사됨</string>
+    <string name="recent">최근</string>
+    <string name="favorite">즐겨찾기</string>
+    <string name="_new">신규</string>
+    <string name="completion">완료</string>
+    <string name="is_favorite">즐겨찾기 됨</string>
+    <string name="is_not_favorite">즐겨찾기 제외</string>
+    <string name="newly">신규</string>
+    <string name="add_favorite">즐겨찾기 추가</string>
+    <string name="playable_item_tips_format">%s. 플레이 횟수: %d, 최근 플레이: %s. %s.</string>
+    <string name="more_detail">상세 보기</string>
+    <string name="username">사용자 이름</string>
+    <string name="password">비밀번호</string>
+
+    <!--  Daijishou library  -->
+    <string name="replace_platform_warning_title">플랫폼 교체</string>
+    <string name="replace_platform_warning_description_format">짧은 이름이 \"%s\"인 플랫폼이 이미 Daijishō 에 존재합니다. 가져온 플랫폼 \"%s\"에서 플랫폼 및 플레이어 설정을 교체하시겠습니까?\n\n⚠️ 일부 설정이 변경될 수 있으니 주의하세요.</string>
+    <string name="package_format">패키지 \"%s\"</string>
+    <string name="the_player_is_not_available_warning_format">기기에 \"%s\"이(가) 없습니다. 플레이 스토어에서 또는 \"찾기\"를 클릭하여 장치에서 사용 가능한 플레이어를 감지할 수 있습니다.</string>
+    <string name="the_player_is_not_available_warning_detect">찾기</string>
+    <string name="available_players">사용 가능한 플레이어</string>
+    <string name="kill_package_processes_warning_title">패키지 프로세스 종료</string>
+    <string name="kill_package_processes_warning">이 아이템을 플레이하려면 기존 프로세스를 중지해야 합니다. 강제 종료 프로세스를 수행하면 현재 진행률이 저장되지 않을 수 있습니다. 확실한가요?</string>
+    <string name="no_killing">종료하지 않음</string>
+    <string name="empty_uri_warning">이 아이템에는 빈 URI가 있습니다. 다시 동기화해주세요.</string>
+    <string name="playable_item_and_player_have_different_type">플레이어의 타입이 올바르지 않습니다.</string>
+    <string name="playable_item_no_longer_exists_on_uri_warning_format">이 항목은 더 이상 URI(%s)에 없습니다. \n다시 동기화하십시오.\nURI path: %s\nURI Authority: %s</string>
+    <string name="playable_item_no_longer_exists_on_analysed_path_warning_format">이 항목은 분석된 파일 경로에 더 이상 존재하지 않습니다. \n\"am start\" 인수의 \"{file.path}\"에 필요합니다. 다시 동기화하십시오.\n경로: %s\nURI: %s\nURI 경로: %s\nURI 권한: %s</string>
+    <string name="player_error_format">플레이어 오류: \n%s</string>
+
+    <!--  Apps page  -->
+    <string name="all_apps">모든 앱</string>
+    <string name="apps_hidden">숨겨진 앱</string>
+    <string name="only_games">게임 앱</string>
+    <string name="ordered_by_alphabetic">알파벳순</string>
+    <string name="ordered_by_reverse">내림차순</string>
+    <string name="ordered_by_recent">최근순</string>
+    <string name="uninstall_format">\"%s\" 삭제</string>
+    <string name="uninstall_confirm_format">정말로 \"%s\"을(를) 삭제하시겠습니까?</string>
+    <string name="unhidden_formant">\"%s\" 숨김 해제</string>
+    <string name="hide_formant">\"%s\" 숨기기</string>
+    <string name="flag_as_game_formant">\"%s\"을(를) 게임으로 표시</string>
+    <string name="flag_as_not_game_formant">\"%s\"을(를) 게임이 아닌 것으로 표시</string>
+    <string name="view_activities">활동 보기</string>
+    <string name="view_application_info">애플리케이션 정보</string>
+    <string name="activities_format">\"%s\"의 활동</string>
+    <string name="is_game_format">\"%s\"를 플레이합니다.</string>
+    <string name="is_not_game_format">%s.</string>
+
+    <!--  Highlight page  -->
+    <string name="all_items">모든 아이템</string>
+    <string name="overview">개요</string>
+    <string name="set_to_mode_format">"%s" 로 설정합니다.</string>
+    <string name="no_items_format">%s 개 아이템 없음</string>
+
+    <!--  Widgets page  -->
+    <string name="new_widget">새로운 위젯</string>
+    <string name="move_widget_title">📦 이동</string>
+    <string name="move_widget_description">이동할 다른 아이템을 클릭합니다.</string>
+    <string name="move">이동</string>
+    <string name="widget_removed_successfully">위젯이 성공적으로 삭제되었습니다.</string>
+    <string name="widget_remove_canceled">위젯이 삭제되지 않았습니다.</string>
+    <string name="widget_created_successfully">위젯이 성공적으로 생성되었습니다.</string>
+    <string name="widget_create_canceled">위젯이 생성되지 않았습니다.</string>
+    <string name="total_playable_item_counts_format">라이브러리에 총 %d개의 플레이 가능한 아이템이 있습니다.</string>
+
+    <!--  Platform page  -->
+    <string name="library">라이브러리</string>
+    <string name="syncing_format">동기화 중 - %s</string>
+    <string name="description_item_counts_format">%d 아이템 •\ </string>
+    <string name="description_platform_index_format">플랫폼 %d 중 %d</string>
+    <string name="share_platform_config_string">플랫폼 구성을 공유합니다.</string>
+    <string name="share_platform_favorite_items_string">플랫폼 즐겨찾기 아이템을 공유합니다.</string>
+    <string name="platform_format">%s 플랫폼</string>
+    <string name="item_counts_format">%s 아이템</string>
+    <string name="favorite_format">%s 즐겨찾기</string>
+    <string name="recent_format">%s 최근</string>
+    <string name="new_format">%s 신규</string>
+    <string name="list_view">리스트로 보기</string>
+    <string name="grid_view">그리드로 보기</string>
+    <string name="selected_letter_formant">선택한 문자: %s.</string>
+    <string name="no_items">아이템 없음</string>
+    <string name="no_items_period">아이템이 없습니다.</string>
+    <string name="detail">상세</string>
+    <string name="platform_library_list_tips_format">%s 플랫폼. %d / %d.</string>
+    <string name="playable_item_subtitle_format">마지막 플레이 %s. %d번 플레이했습니다.</string>
+    <string name="playable_item_subtitle_with_genres_format">%s • 마지막으로 플레이 %s. %d번 플레이했습니다.</string>
+    <string name="platform_library_list_description_long_format">마지막으로 플레이 %s. %d번 플레이했습니다. \"%s\"를 플레이어로 사용하세요.</string>
+    <string name="set_preview_to_box_art">미리보기를 박스 아트로 설정합니다.</string>
+    <string name="set_preview_to_snapshot">미리보기를 스냅샷으로 설정합니다.</string>
+    <string name="set_preview_to_title">미리보기를 제목으로 설정합니다.</string>
+    <string name="empty_library">비어있는 라이브러리</string>
+    <string name="empty_library_description">아이템을 라이브러리에 동기화하세요.</string>
+    <string name="empty_platform_description">Daijishō 에 오신 것을 환영합니다.\n먼저 플랫폼을 추가하세요. 웹 브라우저에서 \"Pegasus 구성 생성기\" 에 의해 생성된 구성으로 선택한 플랫폼과 플레이어를 가져올 수도 있습니다.</string>
+
+    <!--  Detail page and RetroAchievements  -->
+    <string name="no_internet_connection">인터넷에 연결되지 않음.</string>
+    <string name="item_description_placeholder">설명이 없습니다. 관련 아이템은 첨부하지 않습니다.</string>
+    <string name="item_description_error_prefix">이 아이템에 대한 세부 정보를 찾을 수 없습니다. 사유:</string>
+    <string name="recent_played_description_placeholder">🕑 최근 플레이한 아이템이 나타납니다.</string>
+    <string name="achievement_unavailable_with_emoji">🏆 업적을 사용할 수 없습니다.</string>
+    <string name="achievement_unavailable">업적을 사용할 수 없습니다.</string>
+    <string name="achievement_refreshing">새로고침 중…</string>
+    <string name="achievement_login_required">로그인 필요</string>
+    <string name="achievement_login_required_period">로그인이 필요합니다.</string>
+    <string name="achievement_login_required_detail">RetroAchievement 계정에 로그인하십시오.</string>
+    <string name="achievement_description_format">\uD83C\uDFC6 %s. \uD83C\uDFC1 %d/%d 완료됨(%.1f%%).</string>
+    <string name="achievement_description_with_rating_format">⭐ %.2f (%d 표). \uD83C\uDFC1 %d/%d 완료됨(%.1f%%).</string>
+    <string name="achievement_rating_format">⭐ %.1f (%d 표)</string>
+    <string name="achievement_completion_format">\uD83C\uDFC1 %d/%d 완료</string>
+    <string name="achievement_points_format">%d 포인트</string>
+    <string name="achievement_completed">완료됨.</string>
+    <string name="achievement_incomplete">진행중.</string>
+    <string name="achievement_detail_format">🏁 업적 %d 중 %d.\n%s</string>
+    <string name="no_description_for_this_achievement">이 업적에 대한 설명이 없습니다.</string>
+    <string name="please_login">로그인 해주세요.</string>
+    <string name="loading_username">사용자 이름 불러오는 중…</string>
+    <string name="loading_data">데이터 불러오는 중…</string>
+    <string name="n_of_m_format">%d 중 %d</string>
+    <string name="n_of_m_completed_abbreviation_format">%d 중 %d</string>
+    <string name="achievement_completed_format">%.1f%% 완료되었습니다.</string>
+    <string name="user_achievement_description_format">🏆 총 %d 포인트, 하드코어 %d 포인트, 소프트코어 %d 포인트.</string>
+    <string name="daily">일일</string>
+    <string name="weekly">주간</string>
+    <string name="all_time">전체</string>
+    <string name="friends_ranking">친구 랭킹</string>
+
+    <!--  Settings page  -->
+    <string name="all_settings">전체 설정</string>
+    <string name="players_and_platforms_title">플레이어 및 플랫폼</string>
+    <string name="actions_title">액션</string>
+    <string name="import_title">불러오기</string>
+    <string name="not_imported">불러오지 않음</string>
+    <string name="are_you_sure">확실합니까?</string>
+    <string name="clear_all_disjointed_playable_items_warning">이 작업을 수행하면 아이템이 삭제되고 일부 기록이 손실됩니다. 완료하는 데 시간이 걸릴 수 있습니다.</string>
+    <string name="cleared_items_format">%d개 아이템이 삭제되었습니다.</string>
+    <string name="add_and_inspect_title">추가 및 확인</string>
+    <string name="player_list_title">플레이어 확인</string>
+    <string name="platform_list_title">플랫폼 확인</string>
+    <string name="appearance_title">모양</string>
+    <string name="platforms_page_title">플랫폼 페이지</string>
+    <string name="button_sounds_title">버튼 효과음</string>
+    <string name="hotkeys_title">단축키</string>
+    <string name="preview_video_title">미리보기 동영상</string>
+    <string name="retro_achievements_title">레트로 업적</string>
+    <string name="others_title">기타</string>
+
+    <!--  Preferences  -->
+    <string name="system_settings_title">시스템 설정</string>
+    <string name="system_settings_summary">안드로이드 시스템 설정을 엽니다.</string>
+    <string name="kiosk_mode_title">키오스크 모드</string>
+    <string name="kiosk_mode_summary">간소화된 UI 모드를 사용합니다.</string>
+    <string name="download_platforms_title">플랫폼 다운로드</string>
+    <string name="download_platforms_title_abbreviation">플랫폼 다운로드</string>
+    <string name="download_platforms_summary">Daijishō GitHub 페이지에서 사전 정의된 플랫폼을 선택했습니다.</string>
+    <string name="continue_play_title">이어서 플레이</string>
+    <string name="continue_play_summary">플레이 할 때마다 이어하기 페이지로 전환합니다.</string>
+    <string name="show_similar_items_title">유사한 아이템</string>
+    <string name="show_similar_items_summary">상세 페이지에 유사한 아이템을 함께 표시합니다.</string>
+    <string name="disable_player_kill_package_processes_warning_title">플레이어 경고 비활성화</string>
+    <string name="disable_player_kill_package_processes_warning_summary">모든 플레이어 \"패키지 프로세스 종료\" 경고를 비활성화하고 재정의합니다.</string>
+    <string name="use_aggressive_scraping_title">적극적인 스크래핑</string>
+    <string name="use_aggressive_scraping_summary">최소한의 제약으로 박스 아트 스크래핑. 이로인해 잘못된 박스 아트가 스크랩 될 수 있습니다.</string>
+    <string name="clear_disjointed_items_on_sync_title">동기화 시 분리된 모든 아이템 지우기</string>
+    <string name="clear_disjointed_items_on_sync_summary">동기화 시 연결이 해제되었거나 필수 파일이 존재하지 않는 모든 플레이 가능한 아이템을 지웁니다.</string>
+    <string name="more_players_and_platforms_settings_title">상세 설정</string>
+    <string name="more_players_and_platforms_settings_summary">플레이어 및 플랫폼 설정을 가져오고 다운로드합니다.</string>
+    <string name="disable_all_custom_players_title">모든 사용자 지정 플레이어 비활성화</string>
+    <string name="disable_all_custom_players_summary">직접 설정한 모든 사용자 지정 플레이어를 비활성화합니다.</string>
+    <string name="clear_all_disjointed_playable_items_title">분리된 모든 아이템 지우기</string>
+    <string name="clear_all_disjointed_playable_items_summary">연결이 해제되었거나 필수 파일이 존재하지 않는 플레이 가능한 아이템을 모두 지웁니다.</string>
+    <string name="remove_all_playable_items_preview_media_title">모든 아이템의 미리보기 미디어 삭제</string>
+    <string name="remove_all_playable_items_preview_media_summary">기기에서 모든 아이템의 미리보기 미디어를 삭제하세요. 해당 미디어를 다시 스크랩해야 합니다.</string>
+    <string name="update_platforms_on_startup_title">시작 시 플랫폼 업데이트</string>
+    <string name="update_platforms_on_startup_summary">시작 시 플랫폼 인덱스 URI에서 플랫폼을 업데이트합니다.</string>
+    <string name="import_platform_title">플랫폼 불러오기</string>
+    <string name="import_platform_summary">생성된 JSON 파일에서 플랫폼을 가져옵니다.</string>
+    <string name="import_favorite_items_title">즐겨찾기 아이템 불러오기</string>
+    <string name="import_favorite_items_summary">JSON 파일 생성에서 즐겨찾기 아이템을 가져옵니다.</string>
+    <string name="import_from_pegasus_title">Pegasus 에서 불러오기</string>
+    <string name="import_from_pegasus_summary">\"Pegasus config generator\" 에서 생성된 구성을 가져옵니다.</string>
+    <string name="add_player_title">플레이어 추가</string>
+    <string name="add_player_summary">컬렉션을 플레이할 플레이어를 추가하세요.</string>
+    <string name="add_platform_title">플랫폼 추가</string>
+    <string name="add_platform_summary">컬렉션을 만들 플랫폼을 추가합니다.</string>
+    <string name="inspect_players_title">플레이어 확인</string>
+    <string name="inspect_players_summary">플레이어를 보고 편집하거나 삭제합니다.</string>
+    <string name="inspect_platforms_title">플랫폼 확인</string>
+    <string name="inspect_platforms_summary">플랫폼 보기, 편집 또는 삭제.</string>
+
+    <string name="please_select_from_the_list">리스트에서 선택해주세요.</string>
+    <string name="item_has_been_selected">이 아이템은 이미 선택되었습니다.</string>
+    <string name="item_has_been_added">이 아이템은 이미 추가되었습니다.</string>
+    <string name="right_tab_hotkey">오른쪽 탭 단축키</string>
+    <string name="left_tab_hotkey">왼쪽 탭 단축키</string>
+    <string name="switching_previous_hotkey">이전 단축키 전환</string>
+    <string name="switching_next_hotkey">다음 단축키 전환</string>
+    <string name="search_hotkey">단축키 검색</string>
+    <string name="hotkeys_set">단축키가 설정되었습니다.</string>
+    <string name="box_art">박스 아트</string>
+    <string name="snapshot">스냅 사진</string>
+    <string name="title">제목</string>
+
+    <string name="download_platform_wallpapers_pack_title">플랫폼 배경화면 팩 다운로드</string>
+    <string name="download_platform_wallpapers_pack_summary">Daijishō Github 페이지에서 배경화면 팩을 다운로드하고 적용해보세요.</string>
+    <string name="theme_color_title">테마 색상</string>
+    <string name="theme_color_summary">원하는 테마 색상을 설정합니다.</string>
+    <string name="use_dark_theme_title">어두운 테마</string>
+    <string name="use_dark_theme_summary">어두운 테마를 활성화하거나 비활성화합니다.</string>
+    <string name="use_pure_dark_theme_title">순수하게 어두운 테마</string>
+    <string name="use_pure_dark_theme_summary">OLED 등을 사용하는 장치에서 순수하게 어두운 테마를 활성화합니다.</string>
+    <string name="more_appearance_settings_title">상세 설정</string>
+    <string name="more_appearance_settings_summary">모양 상세 설정.</string>
+    <string name="enforce_platform_card_aspect_ratio_title">강제 종횡비</string>
+    <string name="enforce_platform_card_aspect_ratio_summary">플랫폼 페이지 및 배경화면에 가로세로 비율을 적용합니다.</string>
+    <string name="use_auto_theme_color_title">자동 테마 색상</string>
+    <string name="use_auto_theme_color_summary">배경화면을 기반으로 플랫폼의 색상을 자동으로 선택합니다.</string>
+    <string name="prettify_titles_title">간결한 제목</string>
+    <string name="prettify_titles_summary">제목에 불필요한 문구를 제거해서 보기 좋게 만들어줍니다.</string>
+    <string name="use_24_hour_clock_title">24시간제 사용</string>
+    <string name="use_24_hour_clock_summary">24시간제 형식으로 시간을 표시합니다.</string>
+    <string name="swap_a_b_buttons_title">A와 B 버튼 교체</string>
+    <string name="swap_a_b_buttons_summary">취향에 맞게 하단에 표시된 A 버튼과 B 버튼을 맞바꿀 수 있습니다.</string>
+    <string name="show_recent_indicators_title">새로 추가된 아이템에 알림 아이콘 표시</string>
+    <string name="show_recent_indicators_summary">리스트에서 최근 추가된 아이템 옆에 알림 아이콘을 표시합니다.</string>
+    <string name="use_widgets_page_title">위젯 페이지</string>
+    <string name="use_widgets_page_summary">위젯 페이지를 사용합니다.</string>
+    <string name="use_apps_page_title">앱 페이지</string>
+    <string name="use_apps_page_summary">앱 페이지를 사용합니다.</string>
+
+    <string name="make_button_sound_title">버튼 효과음 추가</string>
+    <string name="make_button_sound_summary">설정 시 버튼에 효과음이 추가됩니다.</string>
+    <string name="button_sound_title">버튼 효과음</string>
+    <string name="button_sound_summary">버튼의 효과음을 설정합니다.</string>
+    <string name="select_button_sound_title">선택 버튼 효과음</string>
+    <string name="select_button_sound_summary">선택 버튼의 효과음을 설정합니다.</string>
+    <string name="back_button_sound_title">뒤로가기 버튼 효과음</string>
+    <string name="back_button_sound_summary">뒤로가기 버튼의 효과음을 설정합니다.</string>
+    <string name="disable_b_button_sound_title">B 버튼 효과음 비활성화</string>
+    <string name="disable_b_button_sound_summary">반복되는 B 버튼 효과음을 피하시려면 비활성화하세요.</string>
+
+    <string name="home_page_title">홈 페이지</string>
+    <string name="home_page_summary">홈 버튼을 클릭할 때 나타낼 기본 페이지를 설정합니다.</string>
+    <string name="search_hotkey_title">검색 단축키</string>
+    <string name="search_hotkey_summary">검색 단축키를 설정합니다.</string>
+    <string name="tabs_hotkeys_title">탭 단축키</string>
+    <string name="tabs_hotkeys_summary">탭 단축키를 설정합니다. 왼쪽과 오른쪽으로 쉽게 전환할 수 있습니다.</string>
+    <string name="switching_hotkeys_title">전환 단축키</string>
+    <string name="switching_hotkeys_summary">전환 단축키를 설정합니다. 플랫폼 등에서 이전 아이템과 다음 아이템을 쉽게 이동할 수 있습니다.</string>
+    <string name="first_additional_hotkey_title">첫 번째 추가 단축키</string>
+    <string name="first_additional_hotkey_summary">첫 번째 추가 단축키를 설정합니다.</string>
+    <string name="second_additional_hotkey_title">두 번째 추가 단축키</string>
+    <string name="second_additional_hotkey_summary">두 번째 추가 단축키를 설정합니다.</string>
+    <string name="more_hotkeys_settings_title">상세 설정</string>
+    <string name="more_hotkeys_settings_summary">검색, 탭, 전환 등 다양한 단축키를 설정합니다.</string>
+
+    <string name="play_preview_video_title">미리보기 동영상</string>
+    <string name="play_preview_video_summary">미리보기 동영상이 있다면 재생합니다.</string>
+    <string name="make_preview_video_sounds_title">동영상 소리</string>
+    <string name="make_preview_video_sounds_summary">미리보기 동영상의 소리를 함께 재생합니다.</string>
+
+    <string name="enable_retro_achievements_title">RetroAchievements 활성화</string>
+    <string name="enable_retro_achievements_summary">설정 시 RetroAchievements 의 업적이 활성화 됩니다.</string>
+    <string name="retro_achievements_account_title">계정 자격 증명</string>
+    <string name="retro_achievements_account_summary">RetroAchievements 계정을 입력합니다.</string>
+
+
+    <string name="exit_app_title">Daijishō 나가기</string>
+    <string name="exit_app_summary">뒤로가기 버튼을 눌러 Daijishō 를 종료하도록 허용합니다.</string>
+    <string name="changelogs_title">새로운 소식은 무엇인가요?</string>
+    <string name="changelogs_summary">이전 버전의 변경 로그를 참조하세요.</string>
+    <string name="donation_title">기부하기</string>
+    <string name="donation_summary">개발자를 위해 커피 한 잔 사주시는것은 어떠세요.</string>
+    <string name="discord_title">디스코드 서버</string>
+    <string name="discord_summary">Discord 서버에 가입하여 질문을 하거나 설정을 공유하세요.</string>
+    <string name="github_title">GitHub 페이지</string>
+    <string name="github_summary">Readme를 보고 문제를 보고하거나 GitHub에서 제안 사항을 제출하세요.</string>
+    <string name="about_this_app_title">Daijishō에 대하여</string>
+    <string name="about_this_app_summary">Daijishō에 대해 자세히 알아보세요.</string>
+
+    <!--  Dialogs  -->
+    <string name="add_to_the_list">리스트에 추가</string>
+    <string name="search_your_library">라이브러리 검색</string>
+    <string name="search_your_apps_library">앱 라이브러리 검색</string>
+    <string name="select_platforms">플랫폼 선택</string>
+    <string name="select_platforms_no_selections_format">플랫폼 선택(%d 아이템)</string>
+    <string name="select_platforms_format">플랫폼 선택(%d 중 /%d 아이템)</string>
+    <string name="imported_platforms_result_format">%d개의 플랫폼을 가져왔습니다. %d에 실패했습니다.</string>
+    <string name="platform_wallpapers_packs">플랫폼 배경화면 팩</string>
+    <string name="authors_format">작성자: %s</string>
+    <string name="images_sources">이미지 출처:</string>
+    <string name="images_sources_format">이미지 소스: \n%s</string>
+    <string name="default_wallpaper_included">이 팩에는 기본 배경화면이 포함되어 있습니다.</string>
+    <string name="default_wallpaper_not_included">이 팩은 기본 배경화면과 함께 제공되지 않습니다.</string>
+    <string name="replace_wallpaper_warning">이 작업은 기존 배경화면을 모두 대체합니다.</string>
+    <string name="download_pack">팩 다운로드</string>
+    <string name="index_uri_tips">플랫폼을 다운로드하려면 index.json URI를 지정하세요.</string>
+    <string name="rss_uri_title">RSS URL 편집</string>
+    <string name="rss_uri_tips">최신 뉴스를 받으려면 RSS URL을 지정하십시오.</string>
+
+
+    <string name="edit_the_platform_format">플랫폼(%s) 편집</string>
+    <string name="platform_description_format">%s • 플레이어: %d</string>
+    <string name="new_platform">새로운 플랫폼</string>
+    <string name="delete_platform">플랫폼 삭제</string>
+    <string name="delete_platform_warning_format">정말로 "%s"을(를) 삭제하시겠습니까? 아이템과 기록이 사라집니다.</string>
+    <string name="deleted_successfully">성공적으로 삭제합니다.</string>
+    <string name="delete_unused_players">사용하지 않는 플레이어 삭제</string>
+    <string name="delete_unused_players_warning_format">"%s" 플랫폼과 연결된 미사용 플레이어도 삭제하시겠습니까?</string>
+    <string name="yes_delete_all">예 모두 삭제</string>
+    <string name="general_settings">일반 설정</string>
+    <string name="wallpaper_settings">배경화면 설정</string>
+    <string name="player_settings">플레이어 설정</string>
+    <string name="scraper_settings">스크래퍼 설정</string>
+    <string name="box_art_settings">박스 아트 설정</string>
+    <string name="screen_settings">화면 설정</string>
+    <string name="platform_actions">플랫폼 작업</string>
+    <string name="platform_name_settings_hint">이름(예: "Nintendo 64")</string>
+    <string name="shortname_settings_hint">짧은 이름(예: "n64")</string>
+    <string name="retro_achievements_alias_settings_hint">RetroAchievements 별칭</string>
+    <string name="platform_visibility_settings_hint">보이기 (플랫폼에서 보기)</string>
+    <string name="platform_scrape_preview_media_settings_hint">아이템의 미리보기 미디어 스크랩</string>
+    <string name="accepted_filename_regex_settings_hint">허용되는 파일 이름 정규식</string>
+    <string name="accepted_filename_regex_settings_more_hint">https://regex101.com/에서 정규식을 사용해 보세요.</string>
+    <string name="default_player_hint">기본 플레이어</string>
+    <string name="add_additional_player_hint">추가할 추가 플레이어 검색</string>
+    <string name="add_scraper_hint">추가할 검색 스크래퍼 소스</string>
+    <string name="custom_box_art_aspect_ratio_hint">사용자 지정 박스 아트 종횡비</string>
+    <string name="box_art_aspect_ratio">박스 아트 종횡비</string>
+    <string name="custom_box_art_aspect_ratio">사용자 지정 박스 아트 종횡비</string>
+    <string name="custom_screen_aspect_ratio_hint">사용자 지정 화면 종횡비</string>
+    <string name="screen_aspect_ratio">화면 종횡비</string>
+    <string name="custom_screen_aspect_ratio">사용자 지정 화면 종횡비</string>
+    <string name="please_enter_a_player_name">플레이어 이름을 입력해주세요.</string>
+    <string name="please_enter_a_player_shortname">플레이어의 짧은 이름을 입력하세요.</string>
+    <string name="regex_constraint_warning">정규식 형식은 \"^\"로 시작하고 \"$\"로 끝나야 합니다.</string>
+    <string name="bad_regex_detected">잘못된 정규식이 감지되었습니다.</string>
+    <string name="bad_aspect_ratio_format">종횡비 형식이 잘못되었습니다.</string>
+    <string name="import_preview_media_for_platform">미리보기 미디어 불러오기</string>
+    <string name="import_preview_media_for_platform_hint">\"Skraper\"와 같은 외부 소스에서 미리 보기 미디어를 가져옵니다.</string>
+
+    <string name="import_dat_file_for_platform">.dat 파일 가져오기</string>
+    <string name="import_dat_file_for_platform_hint">\"Skraper\"와 같은 외부 소스에서 .dat 파일을 가져옵니다.</string>
+    <string name="import_xml_file_for_platform">.xml 파일 가져오기</string>
+    <string name="import_xml_file_for_platform_hint">\"Skraper\"와 같은 외부 소스에서 .xml 파일을 가져옵니다.  (Emulation Station)</string>
+    <string name="edit_the_playable_item">플레이 가능한 아이템 수정</string>
+    <string name="playable_item_visibility_settings_hint">보이기 (플레이 가능한 아이템)</string>
+    <string name="unlink_file">파일 연결해제</string>
+    <string name="preview_media_options_title">옵션 선택 (길게 눌러서 삭제)</string>
+    <string name="delete_playable_item_warning">이 아이템을 삭제하면 관련 기록도 함께 삭제됩니다.</string>
+    <string name="detach_playable_item_uri_warning">이 아이템의 URI(파일 연결해제)를 분리하려면 동일한 md5 해시로 파일을 다시 동기화해야 합니다.</string>
+    <string name="box_art_saved">박스 아트가 저장되었습니다.</string>
+    <string name="snapshot_saved">스냅샷이 저장되었습니다.</string>
+    <string name="title_saved">제목이 저장되었습니다.</string>
+    <string name="box_art_removed">박스 아트가 삭제되었습니다.</string>
+    <string name="snapshot_removed">스냅샷이 삭제되었습니다.</string>
+    <string name="title_removed">제목이 삭제되었습니다.</string>
+    <string name="preview_media_settings">미리보기 미디어 설정</string>
+    <string name="scraper_keywords_settings">스크래퍼 키워드 설정</string>
+    <string name="genres_settings">장르 설정</string>
+    <string name="custom_player_settings">사용자 지정 플레이어 설정</string>
+    <string name="playable_item_name_settings_hint">플레이 가능한 아이템 이름</string>
+    <string name="playable_item_scrape_name_settings_hint">스크랩된 이름으로 대체</string>
+    <string name="playable_item_preview_media_settings_hint">미리보기 미디어 수정</string>
+    <string name="playable_item_scraper_keywords_settings_hint">스크래퍼 키워드 입력</string>
+    <string name="playable_item_scrape_scraper_keywords_settings_hint">스크래퍼 키워드를 사용</string>
+    <string name="playable_item_scraper_genres_settings_hint">장르 선택</string>
+    <string name="playable_item_custom_player_settings_hint">사용자 지정 플레이어</string>
+    <string name="playable_item_reset_record_settings_hint">아이템 초기화</string>
+    <string name="playable_item_scrape_preview_media_settings_hint">미리보기 미디어 스크랩</string>
+    <string name="playable_item_save_and_scrape_preview_media_settings_hint">저장 및 스크랩</string>
+    <string name="playable_item_synchronize_settings_hint">이 아이템 동기화</string>
+    <string name="please_enter_a_playable_item_name">플레이 가능한 아이템 이름을 입력하세요.</string>
+    <string name="please_select_a_player">플레이어를 선택하세요.</string>
+    <string name="unknown_player">알 수 없는 플레이어</string>
+
+    <string name="edit_the_player_format">플레이어 편집 (%s)</string>
+    <string name="new_player">새로운 플레이어</string>
+    <string name="player_name_settings_hint">플레이어 이름</string>
+    <string name="player_am_start_arguments_settings_hint">플레이어 시작 인수</string>
+    <string name="player_am_start_arguments_settings_more_hint">\"{file.path}\" 및 \"{file.uri}\"를 사용하여 재생할 파일을 지정합니다.</string>
+    <string name="player_accepted_filename_regex_settings_hint">플레이어 허용 파일 이름 정규식</string>
+    <string name="player_accepted_filename_regex_settings_more_hint">정규식 그룹 1은 스크래퍼 엔진의 키워드로 사용됩니다. https://regex101.com/ 에서 시도하십시오.</string>
+    <string name="player_kill_package_processes_hint">시작하기 전에 패키지 프로세스 종료</string>
+    <string name="player_associated_platforms_title">연관 플랫폼</string>
+    <string name="invalid_launcher_arguments">런처의 인수가 유효하지 않습니다.</string>
+
+    <string name="press_the_key_twice_to_register">키를 두 번 눌러 등록합니다.</string>
+    <string name="press_again_to_register_format">다시 한번 누르면 등록됩니다. (키코드: %s)</string>
+
+    <string name="this_uri_is_invalid">이 URI는 유효하지 않습니다.</string>
+
+    <string name="synchronization_paths_title">동기화 경로 (클릭하면 삭제)</string>
+    <string name="add_more">추가</string>
+    <string name="keep_records">기록 유지</string>
+    <string name="keep_records_warning_title">기록을 보관하시겠습니까?</string>
+    <string name="keep_records_warning">기록을 유지하도록 선택하면 아이템이 유지됩니다. 아이템을 다시 사용할 수 있으면 다시 연결합니다.</string>
+    <string name="delete_uri_warning">이 URI를 삭제하면 연결된 아이템과 데이터도 삭제됩니다.</string>
+    <string name="download_folder_is_not_supported">다운로드 폴더는 지원되지 않습니다.</string>
+    <string name="selected_uri_is_null">선택한 URI가 비어있습니다.</string>
+    <string name="selected_uri_format">선택한 URI: %s</string>
+    <string name="this_path_has_already_added">이 경로는 이미 추가되었습니다.</string>
+
+
+    <!--  Widgets  -->
+    <string name="activity_widget_name">🌱 활동</string>
+    <string name="activity_widget_description">활동 로그를 확인합니다.</string>
+    <string name="activity_widget_count_all_events_action">🌱 모든 이벤트 수 세기</string>
+    <string name="activity_widget_options_title">활동 위젯</string>
+    <string name="activity_widget_continue_play_option">이어하기 (아이템)</string>
+    <string name="activity_widget_played_today_option">오늘 플레이한 아이템 (횟수)</string>
+    <string name="activity_widget_viewed_today_option">오늘 조회한 아이템 (횟수)</string>
+    <string name="activity_widget_played_in_the_period_option">해당 기간에 플레이한 아이템 (그리드)</string>
+    <string name="activity_widget_viewed_in_the_period_option">해당 기간에 본 아이템 (그리드)</string>
+
+
+    <string name="checklist_widget_name">✅ 체크 리스트</string>
+    <string name="checklist_widget_description">체크 리스트를 만드세요.</string>
+    <string name="checklist_widget_edit_action">🖊️ 편집</string>
+
+    <string name="genres_widget_name">🌟  장르</string>
+    <string name="genres_widget_description">장르, 최근, 즐겨찾기 및 새로 추가된 항목으로 필터링된 항목을 검사합니다.</string>
+
+    <string name="image_block_widget_name">🖼️ 이미지 블록</string>
+    <string name="image_block_widget_description">이미지 블록 위젯.</string>
+    <string name="image_block_widget_choose_image_action">🖼️ 이미지 선택</string>
+
+    <string name="pin_and_play_widget_name">📌 아이템 고정</string>
+    <string name="pin_and_play_widget_description">아이템을 고정하고 클릭하여 플레이합니다.</string>
+    <string name="pin_and_play_widget_choose_alternative_image_action">🖼️ 대체 이미지 선택</string>
+    <string name="pin_and_play_widget_pick_an_item_action">\uD83D\uDD8A️ 아이템 선택</string>
+
+
+    <string name="playlist_widget_name">📙 플레이리스트</string>
+    <string name="playlist_widget_description">아이템에 대한 플레이리스트를 만듭니다.</string>
+
+    <string name="random_widget_name">🎲 랜덤</string>
+    <string name="random_widget_description">라이브러리에서 임의.</string>
+    <string name="random_widget_random_all_action">📙 전체 라이브러리</string>
+    <string name="random_widget_favorite_action">❤️ 즐겨찾기</string>
+    <string name="random_widget_recent_action">🕑 최근</string>
+    <string name="random_widget_newly_action">✨ 신규</string>
+
+    <string name="retro_achievements_widget_name">🏆 레트로 업적</string>
+    <string name="retro_achievements_widget_description">RetroAchievements.org 용 위젯</string>
+    <string name="retro_achievements_widget_edit_credential_action">\uD83D\uDD11️ 자격 증명 편집</string>
+
+    <string name="rss_widget_name">📻 ️RSS 피드</string>
+    <string name="rss_widget_description">RSS 피드 위젯.</string>
+    <string name="rss_widget_edit_url_action">🔗️ URL 편집</string>
+
+    <string name="shortcut_widget_name">🚀 바로가기</string>
+    <string name="shortcut_widget_description">바로 가기를 만듭니다.</string>
+
+    <string name="app_shortcut_widget_name">🚀 앱 바로가기</string>
+    <string name="app_shortcut_widget_description">앱 바로 가기를 만듭니다.</string>
+    <string name="app_shortcut_widget_choose_alternative_image_action">🖼️ 대체 이미지 선택</string>
+    <string name="app_shortcut_widget_pick_an_item_action">\uD83D\uDD8A️ 아이템 선택</string>
+
+
+
+    <string name="widget_face_activity_continue_title">이어하기</string>
+    <string name="widget_face_activity_continue_subtitle">최근 플레이 항목 없음.</string>
+
+    <string name="widget_face_activity_today_title">최근 플레이</string>
+    <string name="widget_face_activity_today_subtitle">0 회</string>
+    <string name="widget_face_activity_today_subtitle_format">%d 회</string>
+    <string name="widget_face_activity_today_today">오늘.</string>
+    <string name="widget_face_activity_today_you_have_played_today">오늘.</string>
+    <string name="widget_face_activity_today_you_have_viewed_today">오늘.</string>
+    <string name="widget_face_activity_today_you_have_played">최근 \n플레이</string>
+    <string name="widget_face_activity_today_you_have_viewed">최근 본 \n아이템</string>
+    <string name="widget_face_activity_today_playable_items_played">오늘 플레이한 아이템</string>
+    <string name="widget_face_activity_today_playable_items_viewed">오늘 본 아이템</string>
+    <string name="widget_face_activity_grid_playable_item_played">해당 기간 동안 플레이한 아이템</string>
+    <string name="widget_face_activity_grid_playable_item_viewed">해당 기간 동안 본 아이템</string>
+
+    <string name="widget_face_checklist_title">체크 리스트</string>
+    <string name="widget_face_genres_title">장르</string>
+    <string name="widget_face_genres_subtitle">당신의 도서관을 위해.</string>
+    <string name="widget_face_pin_and_play_title">플레이</string>
+    <string name="widget_face_pin_and_play_subtitle">아이템을 선택하세요.</string>
+    <string name="widget_face_playlist_title">플레이리스트</string>
+    <string name="widget_face_playlist_subtitle">새로운 플레이리스트</string>
+
+    <string name="widget_face_random_options_title">랜덤</string>
+    <string name="widget_face_random_subtitle">라이브러리에서 랜덤</string>
+    <string name="widget_face_random_all_subtitle">전체 컬렉션에서 랜덤.</string>
+    <string name="widget_face_random_favorite_subtitle">즐겨찾기 아이템에서 랜덤.</string>
+    <string name="widget_face_random_recent_subtitle">최근 플레이에서 랜덤.</string>
+    <string name="widget_face_random_newly_subtitle">신규 아이템에서 랜덤.</string>
+    <string name="widget_face_random_option_title">랜덤</string>
+    <string name="widget_face_random_all_option">전체 컬렉션</string>
+    <string name="widget_face_random_favorite_option">즐겨찾는 아이템</string>
+    <string name="widget_face_random_recent_option">최근 플레이</string>
+    <string name="widget_face_random_newly_option">신규 아이템</string>
+
+    <string name="widget_face_retro_achievements_user_profile_title">레트로</string>
+    <string name="widget_face_retro_achievements_user_profile_subtitle">업적</string>
+
+    <string name="widget_face_rss_title">RSS 피드</string>
+    <string name="widget_face_rss_subtitle">RSS URL이 필요합니다.</string>
+    <string name="widget_nav_rss_rss_feed">RSS 피드</string>
+    <string name="widget_nav_rss_to_title">제목 없음</string>
+    <string name="widget_nav_rss_zero_articles">기사 없음</string>
+    <string name="widget_nav_rss_articles_format">%d 개의 기사</string>
+
+    <string name="widget_face_shortcut_title">바로가기</string>
+    <string name="widget_face_shortcut_subtitle">간편한 탐색.</string>
+
+    <string name="widget_face_app_shortcut_title">애플리케이션</string>
+    <string name="widget_face_app_shortcut_subtitle">앱 바로가기</string>
+
+    <!--  1.4 update  -->
+    <string name="unknown_genre_name">알 수 없음</string>
+    <string name="action_genre_name">액션</string>
+    <string name="adventure_genre_name">어드벤처</string>
+    <string name="puzzle_genre_name">퍼즐</string>
+    <string name="role_playing_genre_name">롤플레잉</string>
+    <string name="simulation_genre_name">시뮬레이션</string>
+    <string name="strategy_genre_name">전략</string>
+    <string name="racing_genre_name">레이싱</string>
+    <string name="sports_genre_name">스포츠</string>
+    <string name="shooter_genre_name">슈터</string>
+    <string name="platform_genre_name">플랫폼</string>
+    <string name="management_genre_name">경영</string>
+    <string name="party_genre_name">파티</string>
+    <string name="fighting_genre_name">대전</string>
+    <string name="rhythm_genre_name">리듬</string>
+    <string name="horror_genre_name">공포</string>
+    <string name="maze_genre_name">미로</string>
+    <string name="casino_genre_name">카지노</string>
+    <string name="beat_em_up_genre_name">벨트스크롤 액션</string>
+    <string name="shoot_em_up_genre_name">슈팅</string>
+    <string name="scrolling_genre_name">횡스크롤</string>
+    <string name="metroidvania_genre_name">메트로배니아</string>
+
+    <string name="select_a_playable_item">플레이 가능한 아이템 선택</string>
+
+    <string name="misc_backup_and_restore_name">기타</string>
+    <string name="settings_backup_and_restore_name">설정</string>
+    <string name="library_backup_and_restore_name">라이브러리</string>
+    <string name="widgets_backup_and_restore_name">위젯</string>
+    <string name="library_restore_finished_hint">라이브러리가 복원되었습니다. 각 플랫폼에 대한 동기화 경로를 다시 추가해주세요.</string>
+
+    <string name="restore_policy">복원 정책</string>
+    <string name="supported_backup_and_restore_module_format">지원되는 복원: %s</string>
+    <string name="reset_restore_policy_description">재설정 및 복원</string>
+    <string name="override_restore_policy_description">복원하는 동안 재정의</string>
+    <string name="preserve_restore_policy_description">복원하는 동안 보존</string>
+
+
+    <string name="not_syncing">동기화되지 않음</string>
+    <string name="preparing_synchronization">동기화 준비 중</string>
+    <string name="updating_platforms">플랫폼 업데이트</string>
+    <string name="syncing_library">라이브러리 동기화 중</string>
+    <string name="scraping">스크래핑</string>
+    <string name="aggregating">집계</string>
+    <string name="backing_up">백업</string>
+    <string name="generating_backup_data">백업 데이터 생성</string>
+    <string name="uploading_backup_data">백업 데이터 업로드</string>
+    <string name="finishing">마무리 중</string>
+    <string name="restoring">복원 중</string>
+    <string name="downloading_backup_data">백업 데이터 다운로드</string>
+    <string name="restoring_backup_data">백업 데이터 복원</string>
+    <string name="daijishou_upgrade_sync_entire_hint">Daijishō 가 업그레이드되었으며 최신 기능을 사용하려면 동기화하는 것이 좋습니다. 전체 라이브러리를 동기화하시겠습니까?</string>
+    <string name="daijishou_upgrade_sync_entire_cancel_hint">만약 지금 동기화를 원치 않는 경우, 전체 동기화 옵션은 라이브러리 설정 페이지에 있습니다.</string>
+
+    <string name="synchronization">동기화</string>
+    <string name="status">상태</string>
+    <string name="unknown_status">알 수 없는 상태</string>
+    <string name="description">설명</string>
+
+
+    <string name="applying_changes">변경 사항을 적용합니다.</string>
+    <string name="changes_applied">변경 사항이 적용되었습니다.</string>
+
+    <string name="select_a_backup">백업 선택</string>
+    <string name="select_a_backup_hint">백업 선택 (길게 눌러서 삭제)</string>
+    <string name="last_backup_time_format">마지막 백업: %s</string>
+    <string name="from_this_daijishou">이 Daijishō 에서</string>
+    <string name="delete_a_backup">백업 삭제</string>
+    <string name="delete_this_backup_hint">이 백업을 삭제하시겠습니까?</string>
+
+
+    <string name="n_platforms_syncing_format">%d 개의 플랫폼이 동기화 중입니다.</string>
+    <string name="library_settings_title">라이브러리</string>
+    <string name="library_settings_summary">플랫폼, 플레이어, 스크래핑 등.</string>
+    <string name="appearance_settings_title">모양</string>
+    <string name="appearance_settings_summary">배경화면, 테마 색상, 페이지 등.</string>
+    <string name="navigation_settings_title">내비게이션</string>
+    <string name="navigation_settings_summary">홈페이지, 단축키, 키오스크 모드.</string>
+    <string name="video_and_sounds_settings_title">동영상 및 소리</string>
+    <string name="video_and_sounds_settings_summary">활성화/비활성화, 조작 버튼 효과음.</string>
+    <string name="retro_achievements_settings_title">레트로 업적</string>
+    <string name="retro_achievements_settings_summary">활성화/비활성화, 자격 증명.</string>
+    <string name="backup_and_restore_settings_title">백업 및 복원</string>
+    <string name="backup_and_restore_settings_summary">Google 드라이브 계정 등.</string>
+    <string name="logger_settings_title">로거</string>
+    <string name="logger_settings_summary">클릭하면 앱의 로그를 보여줍니다.</string>
+
+
+
+    <string name="sync_entirely_title">전체 동기화</string>
+    <string name="sync_entirely_summary">설정에 따라 한 번의 클릭으로 플랫폼 업데이트, 라이브러리 동기화, 설정 백업 등을 할 수 있습니다.</string>
+    <string name="remove_all_newly_added_playable_items_title">신규 추가 아이템 삭제</string>
+    <string name="remove_all_newly_added_playable_items_summary">라이브러리에 새로 추가된 것으로 표시된 모든 플레이 가능한 아이템을 삭제합니다.</string>
+    <string name="update_platforms_automatically_title">자동으로 플랫폼 업데이트</string>
+    <string name="update_platforms_automatically_summary">시작 및 동기화 시 플랫폼 색인 URI에서 플랫폼을 업데이트합니다.</string>
+    <string name="inspect_invisible_playable_items_title">숨겨진 아이템 보기</string>
+    <string name="inspect_invisible_playable_items_summary">라이브러리에서 숨겨진 플레이 가능한 아이템을 확인합니다.</string>
+    <string name="click_to_set_visible">클릭하면 보이게 됩니다</string>
+
+    <string name="merge_playable_items_title">플레이 가능한 아이템 병합</string>
+    <string name="merge_playable_items_summary">유사한 제목의 플레이 가능한 아이템을 병합합니다.</string>
+    <string name="always_show_sync_icon_title">동기화 아이콘 항상 표시</string>
+    <string name="always_show_sync_icon_summary">항상 상단 표시줄에 동기화 아이콘을 표시합니다. 언제든지 동기화를 관리할 수 있습니다.</string>
+    <string name="do_not_scrap_preview_media_title">미리보기 미디어를 스크랩하지 않습니다.</string>
+    <string name="do_not_scrap_preview_media_summary">사용자 미디어가  존재하면, 미리보기 미디어를 스크랩하지 않습니다.</string>
+
+    <string name="set_wallpaper_title">배경화면 설정</string>
+    <string name="set_wallpaper_summary">Daijishō 앱의 배경화면을 설정하세요.</string>
+    <string name="set_wallpaper_for_all_title">전역 배경화면 설정</string>
+    <string name="set_wallpaper_for_all_summary">사용 가능한 모든 페이지의 배경화면을 설정합니다.</string>
+    <string name="wallpaper_set">배경화면 세트.</string>
+    <string name="scale_ui_title">화면 비율</string>
+    <string name="scale_ui_summary">화면에 더 잘 맞도록 Daijishō UI를 조정할 수 있습니다.</string>
+    <string name="hide_platforms_page_title_title">제목 숨기기</string>
+    <string name="hide_platforms_page_title_summary">플랫폼 페이지의 제목을 사용하지 않습니다.</string>
+    <string name="hide_platforms_page_subtitle_title">부제목 숨기기</string>
+    <string name="hide_platforms_page_subtitle_summary">플랫폼 페이지의 부제목을 사용하지 않습니다.</string>
+    <string name="display_shortname_in_platforms_page_subtitle_title">짧은 이름으로 부제목 표시</string>
+    <string name="display_shortname_in_platforms_page_subtitle_summary">플랫폼 페이지의 부제목에 짧은 이름을 표시합니다.</string>
+
+    <string name="platforms_collection_view_mode_title">플랫폼 컬렉션 보기 모드</string>
+    <string name="platforms_collection_view_mode_summary">플랫폼 페이지에 대해 선호하는 보기 모드를 설정합니다.</string>
+    <string name="download_platform_thumbnails_pack_title">플랫폼 썸네일 팩 다운로드</string>
+    <string name="download_platform_thumbnails_pack_summary">Daijishō Github 페이지에서 썸네일 팩을 다운로드하고 적용합니다.</string>
+
+
+    <string name="google_drive_account_button_title">Google 드라이브 계정</string>
+    <string name="google_drive_account_button_summary">Google 드라이브 계정을 설정하려면 클릭하세요.</string>
+    <string name="print_google_drive_debug_logs_button_title">디버그 로그 덤프</string>
+    <string name="print_google_drive_debug_logs_button_summary">로거에 디버그 정보를 덤프합니다.</string>
+    <string name="automatically_backup_to_google_drive_title">자동 백업</string>
+    <string name="automatically_backup_to_google_drive_summary">Daijishō 는 기준에 따라 자동으로 백업합니다.</string>
+    <string name="backup_to_google_drive_button_title">지금 백업</string>
+    <string name="backup_to_google_drive_button_summary">Google 드라이브에 즉시 백업합니다.</string>
+    <string name="restore_from_google_drive_button_title">백업에서 복원</string>
+    <string name="restore_from_google_drive_button_summary">이 기기에 복원할 백업을 선택해주세요.</string>
+    <string name="google_drive_account_sign_out_message">계정에서 로그아웃하시겠습니까? Google 드라이브 백업이 일시 중지됩니다.</string>
+    <string name="sign_in">로그인</string>
+    <string name="sign_out">로그아웃</string>
+    <string name="google_play_service_not_exists_message">Google 드라이브에 접근하려면 Google Play 서비스가 필요합니다.</string>
+
+
+    <string name="import_preview_media_for_box_art">박스 아트용 미리보기 미디어 불러오기</string>
+    <string name="import_preview_media_for_title">타이틀용 미리보기 미디어 불러오기</string>
+    <string name="import_preview_media_for_snapshot">스냅샷용 미리보기 미디어 불러오기</string>
+
+    <string name="resolving_tree_format">트리 형식을 확인 중: %s</string>
+    <string name="analysing_format">분석 중: %s</string>
+    <string name="scraping_format">스크래핑: %s</string>
+    <string name="adding_to_database">데이터베이스에 추가</string>
+
+    <string name="daijishou_service_notification_content_title">Daijishō 서비스</string>
+    <string name="daijishou_service_notification_content_text">Daijishō 서비스가 실행 중입니다. 현재 장치에서 백그라운드에서 실행이 지원되지 않습니다.</string>
+
+
+    <string-array name="platforms_collection_view_mode_array">
+        <item>배경화면 모드</item>
+        <item>썸네일 모드</item>
+    </string-array>
+
+
+    <!--  1.4 update end  -->
+
+    <string-array name="dark_mode_array">
+        <item>시스템 설정을 따름</item>
+        <item>어둡게</item>
+        <item>밝게</item>
+    </string-array>
+
+
+    <string-array name="home_page_id_display_name_array">
+        <item>플랫폼</item>
+        <!--        <item>이어하기</item>-->
+<!--        <item>하이라이트</item>-->
+        <item>위젯</item>
+        <item>앱</item>
+        <item>설정</item>
+    </string-array>
+
+
+    <string-array name="theme_color_display_array">
+        <item>퍼플</item>
+        <!--        <item>Purple (Monotonic)</item>-->
+
+        <item>옐로우</item>
+        <!--        <item>옐로우 (단조로음)</item>-->
+
+        <item>레드</item>
+        <!--        <item>레드 (단조로음)</item>-->
+
+        <item>블루</item>
+        <!--        <item>Blue (단조로음)</item>-->
+
+        <item>핑크</item>
+        <!--        <item>핑크 (단조로음)</item>-->
+
+        <item>블루그레이</item>
+        <item>블루그레이 (단조로음)</item>
+
+        <item>그레이</item>
+        <item>그레이 (단조로음)</item>
+
+        <item>그린</item>
+        <item>슈퍼 그린</item>
+    </string-array>
+    <string name="show_genres_in_platform_grid_view_title">그리드 보기에서 장르</string>
+    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 보기에서 장르를 표시합니다.</string>
+
+</resources>

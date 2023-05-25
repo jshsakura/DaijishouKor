@@ -58,6 +58,7 @@
     <string name="disabled_period">Disabled.</string>
     <string name="canceled_period">Canceled.</string>
     <string name="cleared_period">Cleared.</string>
+    <string name="restored_period">Restored.</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="done">Done</string>
@@ -139,6 +140,7 @@
     <string name="is_not_game_format">%s.</string>
 
     <!--  Highlight page  -->
+    <string name="all_items">All items</string>
     <string name="overview">Overview</string>
     <string name="set_to_mode_format">Set to "%s".</string>
     <string name="no_items_format">No %s items</string>
@@ -295,6 +297,8 @@
     <string name="theme_color_summary">Set your preferred theme colors.</string>
     <string name="use_dark_theme_title">Dark theme</string>
     <string name="use_dark_theme_summary">Enable or disable dark theme.</string>
+    <string name="use_pure_dark_theme_title">Pure dark theme</string>
+    <string name="use_pure_dark_theme_summary">Enable pure dark theme on device using OLED etc.</string>
     <string name="more_appearance_settings_title">More settings</string>
     <string name="more_appearance_settings_summary">More appearance settings.</string>
     <string name="enforce_platform_card_aspect_ratio_title">Enforce aspect ratio</string>
@@ -309,6 +313,8 @@
     <string name="swap_a_b_buttons_summary">Swap A and B buttons on footer to match your aesthetic.</string>
     <string name="show_recent_indicators_title">Show recent indicators</string>
     <string name="show_recent_indicators_summary">Showing recent indicators in list view.</string>
+    <string name="show_genres_in_platform_grid_view_title">Show genres in grid view</string>
+    <string name="show_genres_in_platform_grid_view_summary">Showing genres in platform\'s grid view.</string>
     <string name="use_widgets_page_title">Widgets page</string>
     <string name="use_widgets_page_summary">Toggle widgets page based on you like it or not.</string>
     <string name="use_apps_page_title">Apps page</string>
@@ -372,7 +378,7 @@
     <string name="select_platforms_no_selections_format">Select platforms (%d items)</string>
     <string name="select_platforms_format">Select platforms (%d of %d items)</string>
     <string name="imported_platforms_result_format">Imported %d platforms. %d failed.</string>
-    <string name="platform_wallpaper_packs">Platform wallpaper packs</string>
+    <string name="platform_wallpapers_packs">Platform wallpapers packs</string>
     <string name="authors_format">Author(s): %s</string>
     <string name="images_sources">Image source(s):</string>
     <string name="images_sources_format">Image source(s): \n%s</string>
@@ -669,7 +675,7 @@
     <string name="retro_achievements_settings_title">RetroAchievements</string>
     <string name="retro_achievements_settings_summary">Enable/disable, credentials.</string>
     <string name="backup_and_restore_settings_title">Backup and restore</string>
-    <string name="backup_and_restore_settings_summary">Google drive account and more.</string>
+    <string name="backup_and_restore_settings_summary">Google Drive account and more.</string>
     <string name="logger_settings_title">Logger</string>
     <string name="logger_settings_summary">Click to view logs of the app.</string>
 
@@ -740,6 +746,23 @@
     <string name="daijishou_service_notification_content_title">Daijishō Service</string>
     <string name="daijishou_service_notification_content_text">Daijishō foreground service running. Because background is not supported on your device.</string>
 
+    <string-array name="scale_ui_array">
+        <item>0.8</item>
+        <item>0.85</item>
+        <item>0.9</item>
+        <item>0.925</item>
+        <item>0.95</item>
+        <item>0.975</item>
+        <item>Default</item>
+        <item>1.025</item>
+        <item>1.05</item>
+        <item>1.075</item>
+        <item>1.1</item>
+        <item>1.15</item>
+        <item>1.2</item>
+        <item>1.25</item>
+    </string-array>
+
 
     <string-array name="platforms_collection_view_mode_array">
         <item>Wallpaper mode</item>
@@ -764,7 +787,6 @@
         <item>Apps</item>
         <item>Settings</item>
     </string-array>
-
 
     <string-array name="theme_color_display_array">
         <item>Purple</item>
@@ -791,5 +813,4 @@
         <item>Green</item>
         <item>Super Green</item>
     </string-array>
-
 </resources>

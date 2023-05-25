@@ -57,7 +57,8 @@
     <string name="none_lowercase">선택안함</string>
     <string name="disabled_period">비활성화.</string>
     <string name="canceled_period">취소.</string>
-    <string name="cleared_period">클리어.</string>
+    <string name="cleared_period">비워짐.</string>
+    <string name="restored_period">복원됨.</string>
     <string name="yes">네</string>
     <string name="no">아니요</string>
     <string name="done">완료</string>
@@ -312,6 +313,8 @@
     <string name="swap_a_b_buttons_summary">취향에 맞게 하단 푸터에 표시된 A 버튼과 B 버튼을 맞바꿀 수 있습니다.</string>
     <string name="show_recent_indicators_title">새로 추가된 아이템에 알림 아이콘 표시</string>
     <string name="show_recent_indicators_summary">리스트에서 최근 추가된 아이템 옆에 알림 아이콘을 표시합니다.</string>
+    <string name="show_genres_in_platform_grid_view_title">그리드 형태로 장르 표시</string>
+    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 보기에서 장르 표시.</string>
     <string name="use_widgets_page_title">위젯 페이지</string>
     <string name="use_widgets_page_summary">위젯 페이지를 사용합니다.</string>
     <string name="use_apps_page_title">앱 페이지</string>
@@ -375,7 +378,7 @@
     <string name="select_platforms_no_selections_format">플랫폼 선택(%d 아이템)</string>
     <string name="select_platforms_format">플랫폼 선택(%d 중 /%d 아이템)</string>
     <string name="imported_platforms_result_format">%d개의 플랫폼을 가져왔습니다. %d에 실패했습니다.</string>
-    <string name="platform_wallpaper_packs">플랫폼 배경화면 팩</string>
+    <string name="platform_wallpapers_packs">플랫폼 배경화면 팩</string>
     <string name="authors_format">작성자: %s</string>
     <string name="images_sources">이미지 출처:</string>
     <string name="images_sources_format">이미지 소스: \n%s</string>
@@ -407,7 +410,7 @@
     <string name="platform_name_settings_hint">이름(예: "Nintendo 64")</string>
     <string name="shortname_settings_hint">짧은 이름(예: "n64")</string>
     <string name="retro_achievements_alias_settings_hint">RetroAchievements 별칭</string>
-    <string name="platform_visibility_settings_hint">보이기 (플랫폼의 가시성)</string>
+    <string name="platform_visibility_settings_hint">보이기 (플랫폼에서 보기)</string>
     <string name="platform_scrape_preview_media_settings_hint">아이템의 미리보기 미디어 스크랩</string>
     <string name="accepted_filename_regex_settings_hint">허용되는 파일 이름 정규식</string>
     <string name="accepted_filename_regex_settings_more_hint">https://regex101.com/에서 정규식을 사용해 보세요.</string>
@@ -549,10 +552,10 @@
     <string name="widget_face_activity_today_subtitle">0 회</string>
     <string name="widget_face_activity_today_subtitle_format">%d 회</string>
     <string name="widget_face_activity_today_today">오늘.</string>
-    <string name="widget_face_activity_today_you_have_played">플레이함</string>
-    <string name="widget_face_activity_today_you_have_viewed">보았음</string>
+    <string name="widget_face_activity_today_you_have_played">지난 플레이</string>
+    <string name="widget_face_activity_today_you_have_viewed">살펴본 것</string>
     <string name="widget_face_activity_today_playable_items_played">오늘 플레이한 아이템</string>
-    <string name="widget_face_activity_today_playable_items_viewed">오늘 본 아이템</string>
+    <string name="widget_face_activity_today_playable_items_viewed">오늘 봤던 아이템</string>
     <string name="widget_face_activity_grid_playable_item_played">해당 기간 동안 플레이한 아이템</string>
     <string name="widget_face_activity_grid_playable_item_viewed">해당 기간 동안 본 아이템</string>
 
@@ -680,7 +683,7 @@
 
     <string name="sync_entirely_title">전체 동기화</string>
     <string name="sync_entirely_summary">설정에 따라 한 번의 클릭으로 플랫폼 업데이트, 라이브러리 동기화, 설정 백업 등을 할 수 있습니다.</string>
-    <string name="remove_all_newly_added_playable_items_title">신규 추가됨 아이템 삭제</string>
+    <string name="remove_all_newly_added_playable_items_title">신규 추가 아이템 삭제</string>
     <string name="remove_all_newly_added_playable_items_summary">라이브러리에 새로 추가된 것으로 표시된 모든 플레이 가능한 아이템을 삭제합니다.</string>
     <string name="update_platforms_automatically_title">자동으로 플랫폼 업데이트</string>
     <string name="update_platforms_automatically_summary">시작 및 동기화 시 플랫폼 색인 URI에서 플랫폼을 업데이트합니다.</string>
@@ -741,8 +744,24 @@
     <string name="adding_to_database">데이터베이스에 추가</string>
 
     <string name="daijishou_service_notification_content_title">Daijishō 서비스</string>
-    <string name="daijishou_service_notification_content_text">Daijishō 서비스가 실행 중입니다. 현재 장치에서 백그라운드에서 실행이 지원되지 않음.</string>
+    <string name="daijishou_service_notification_content_text">Daijishō 서비스가 실행 중입니다. 현재 장치에서 백그라운드에서 실행이 지원되지 않습니다.</string>
 
+    <string-array name="scale_ui_array">
+        <item>0.8</item>
+        <item>0.85</item>
+        <item>0.9</item>
+        <item>0.925</item>
+        <item>0.95</item>
+        <item>0.975</item>
+        <item>Default</item>
+        <item>1.025</item>
+        <item>1.05</item>
+        <item>1.075</item>
+        <item>1.1</item>
+        <item>1.15</item>
+        <item>1.2</item>
+        <item>1.25</item>
+    </string-array>
 
     <string-array name="platforms_collection_view_mode_array">
         <item>배경화면 모드</item>
@@ -794,5 +813,4 @@
         <item>그린</item>
         <item>슈퍼 그린</item>
     </string-array>
-
 </resources>
