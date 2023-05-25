@@ -163,7 +163,7 @@
     <string name="move_widget_title">📦 이동</string>
     <string name="move_widget_description">이동하고 싶은 위치의 다른 아이템을 선택합니다.</string>
     <string name="move">이동</string>
-    <string name="widget_removed_successfully">위젯이 성공적으로 삭제되었습니다.</string>
+    <string name="widget_removed_successfully">위젯이 삭제되었습니다.</string>
     <string name="widget_remove_canceled">위젯이 삭제되지 않았습니다.</string>
     <string name="widget_created_successfully">위젯이 성공적으로 생성되었습니다.</string>
     <string name="widget_create_canceled">위젯이 생성되지 않았습니다.</string>
