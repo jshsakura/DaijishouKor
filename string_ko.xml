@@ -28,7 +28,7 @@
     <string name="launching_daijishou">Daijishō 기동중…</string>
     <string name="rating_dialog_title">Daijishō를 즐겁게 사용하고 계신가요?</string>
     <string name="rating_dialog_message">귀찮게 해서 미안해요.\nGoogle Play 스토어에서 Daijishō 가 마음에 든다면 리뷰를 남겨주세요!</string>
-    <string name="rating_dialog_positive">물론</string>
+    <string name="rating_dialog_positive">좋아요</string>
     <string name="rating_dialog_negative">나중에</string>
     <string name="progress_dialog_title">처리중</string>
     <string name="progress_dialog_message">처리중입니다. 잠시만 기다려주세요.</string>
@@ -65,11 +65,11 @@
     <string name="go_top">맨위로</string>
     <string name="edit_item">아이템 수정</string>
     <string name="platform">플랫폼</string>
-    <string name="none">선택안함</string>
-    <string name="none_lowercase">선택안함</string>
+    <string name="none">없음</string>
+    <string name="none_lowercase">없음</string>
     <string name="disabled_period">비활성화.</string>
     <string name="canceled_period">취소.</string>
-    <string name="cleared_period">클리어.</string>
+    <string name="cleared_period">비우기.</string>
     <string name="restored_period">복원되었습니다.</string>
     <string name="yes">네</string>
     <string name="no">아니요</string>
@@ -87,7 +87,7 @@
     <string name="save">저장</string>
     <string name="saved">저장됨</string>
     <string name="replace">교체</string>
-    <string name="clear">클리어</string>
+    <string name="clear">비우기</string>
     <string name="delete">삭제</string>
     <string name="remove">삭제됨</string>
     <string name="reset">초기화</string>
@@ -121,7 +121,7 @@
     <string name="replace_platform_warning_title">플랫폼 교체</string>
     <string name="replace_platform_warning_description_format">짧은 이름이 \"%s\"인 플랫폼이 이미 Daijishō 에 존재합니다. 가져온 플랫폼 \"%s\"에서 플랫폼 및 플레이어 설정을 교체하시겠습니까?\n\n⚠️ 일부 설정이 변경될 수 있으니 주의하세요.</string>
     <string name="package_format">패키지 \"%s\"</string>
-    <string name="the_player_is_not_available_warning_format">기기에 \"%s\"이(가) 없습니다. 플레이 스토어에서 또는 \"찾기\"를 클릭하여 장치에서 사용 가능한 플레이어를 감지할 수 있습니다.</string>
+    <string name="the_player_is_not_available_warning_format">기기에 \"%s\"이(가) 없습니다. 플레이 스토어에서 또는 \"찾기\"를 선택하면 장치에서 사용 가능한 플레이어를 감지할 수 있습니다.</string>
     <string name="the_player_is_not_available_warning_detect">찾기</string>
     <string name="available_players">사용 가능한 플레이어</string>
     <string name="kill_package_processes_warning_title">패키지 프로세스 종료</string>
@@ -161,7 +161,7 @@
     <!--  Widgets page  -->
     <string name="new_widget">새로운 위젯</string>
     <string name="move_widget_title">📦 이동</string>
-    <string name="move_widget_description">이동할 다른 아이템을 클릭합니다.</string>
+    <string name="move_widget_description">이동하고 싶은 위치의 다른 아이템을 선택합니다.</string>
     <string name="move">이동</string>
     <string name="widget_removed_successfully">위젯이 성공적으로 삭제되었습니다.</string>
     <string name="widget_remove_canceled">위젯이 삭제되지 않았습니다.</string>
@@ -257,7 +257,7 @@
     <string name="kiosk_mode_summary">간소화된 UI 모드를 사용합니다.</string>
     <string name="download_platforms_title">플랫폼 다운로드</string>
     <string name="download_platforms_title_abbreviation">플랫폼 다운로드</string>
-    <string name="download_platforms_summary">Daijishō GitHub 페이지에서 사전 정의된 플랫폼을 선택했습니다.</string>
+    <string name="download_platforms_summary">Daijishō GitHub에서 사전 정의된 플랫폼을 선택할 수 있습니다.</string>
     <string name="continue_play_title">이어서 플레이</string>
     <string name="continue_play_summary">플레이 할 때마다 이어하기 페이지로 전환합니다.</string>
     <string name="show_similar_items_title">유사한 아이템</string>
@@ -265,7 +265,7 @@
     <string name="disable_player_kill_package_processes_warning_title">플레이어 경고 숨기기</string>
     <string name="disable_player_kill_package_processes_warning_summary">모든 플레이어의 \"패키지 프로세스 종료\" 경고를 비활성화하고 재정의합니다.</string>
     <string name="use_aggressive_scraping_title">적극적인 스크래핑</string>
-    <string name="use_aggressive_scraping_summary">최소한의 제약으로 박스 아트를 스크랩. 이로인해 잘못된 박스 아트가 스크랩 될 수 있습니다.</string>
+    <string name="use_aggressive_scraping_summary">최소한의 제약으로 박스 아트를 검색. 이로인해 잘못된 박스 아트가 수집 될 수 있습니다.</string>
     <string name="clear_disjointed_items_on_sync_title">동기화 시 누락된 모든 아이템 삭제</string>
     <string name="clear_disjointed_items_on_sync_summary">동기화 시 플레이 가능한 아이템 중 필수 파일이 누락된 모든 아이템을 삭제합니다.</string>
     <string name="more_players_and_platforms_settings_title">상세 설정</string>
@@ -275,7 +275,7 @@
     <string name="clear_all_disjointed_playable_items_title">누락된 모든 아이템 삭제</string>
     <string name="clear_all_disjointed_playable_items_summary">플레이 가능한 아이템 중 실제 경로에 필수 파일이 누락된 모든 아이템을 삭제합니다.</string>
     <string name="remove_all_playable_items_preview_media_title">모든 아이템의 미리보기 미디어 삭제</string>
-    <string name="remove_all_playable_items_preview_media_summary">기기에서 모든 아이템의 미리보기 미디어를 삭제하세요. 해당 미디어를 다시 스크랩해야 합니다.</string>
+    <string name="remove_all_playable_items_preview_media_summary">기기에서 모든 아이템의 미리보기 미디어를 삭제하며, 해당 미디어를 다시 수집해야 합니다.</string>
     <string name="update_platforms_on_startup_title">시작 시 플랫폼 업데이트</string>
     <string name="update_platforms_on_startup_summary">시작 시 플랫폼 인덱스 URI에서 플랫폼을 업데이트합니다.</string>
     <string name="import_platform_title">플랫폼 불러오기</string>
@@ -307,7 +307,7 @@
     <string name="title">제목</string>
 
     <string name="download_platform_wallpapers_pack_title">플랫폼 배경화면 팩 다운로드</string>
-    <string name="download_platform_wallpapers_pack_summary">Daijishō Github를 통해 플랫폼의 배경화면 팩을 다운로드하고 적용해보세요.</string>
+    <string name="download_platform_wallpapers_pack_summary">Daijishō Github에서 플랫폼의 배경화면 팩을 다운로드하고 적용해보세요.</string>
     <string name="theme_color_title">테마 색상</string>
     <string name="theme_color_summary">원하는 테마 색상을 설정합니다.</string>
     <string name="use_dark_theme_title">어두운 테마</string>
@@ -424,7 +424,7 @@
     <string name="shortname_settings_hint">짧은 이름(예: "n64")</string>
     <string name="retro_achievements_alias_settings_hint">RetroAchievements 별칭</string>
     <string name="platform_visibility_settings_hint">보이기 (플랫폼에서 보기)</string>
-    <string name="platform_scrape_preview_media_settings_hint">아이템의 미리보기 미디어 스크랩</string>
+    <string name="platform_scrape_preview_media_settings_hint">아이템의 미리보기 미디어 수집</string>
     <string name="accepted_filename_regex_settings_hint">허용되는 파일 이름 정규식</string>
     <string name="accepted_filename_regex_settings_more_hint">https://regex101.com/에서 정규식을 사용해 보세요.</string>
     <string name="default_player_hint">기본 플레이어</string>
@@ -465,15 +465,15 @@
     <string name="genres_settings">장르 설정</string>
     <string name="custom_player_settings">사용자 지정 플레이어 설정</string>
     <string name="playable_item_name_settings_hint">플레이 가능한 아이템 이름</string>
-    <string name="playable_item_scrape_name_settings_hint">스크랩된 이름으로 대체</string>
+    <string name="playable_item_scrape_name_settings_hint">스크래퍼로 수집된 이름으로 대체</string>
     <string name="playable_item_preview_media_settings_hint">미리보기 미디어 수정</string>
     <string name="playable_item_scraper_keywords_settings_hint">스크래퍼 키워드 입력</string>
     <string name="playable_item_scrape_scraper_keywords_settings_hint">스크래퍼 키워드를 사용</string>
     <string name="playable_item_scraper_genres_settings_hint">장르 선택</string>
     <string name="playable_item_custom_player_settings_hint">사용자 지정 플레이어</string>
     <string name="playable_item_reset_record_settings_hint">아이템 초기화</string>
-    <string name="playable_item_scrape_preview_media_settings_hint">미리보기 미디어 스크랩</string>
-    <string name="playable_item_save_and_scrape_preview_media_settings_hint">저장 및 스크랩</string>
+    <string name="playable_item_scrape_preview_media_settings_hint">미리보기 미디어 수집</string>
+    <string name="playable_item_save_and_scrape_preview_media_settings_hint">저장 및 수집</string>
     <string name="playable_item_synchronize_settings_hint">이 아이템 동기화</string>
     <string name="please_enter_a_playable_item_name">플레이 가능한 아이템 이름을 입력하세요.</string>
     <string name="please_select_a_player">플레이어를 선택하세요.</string>
@@ -495,7 +495,7 @@
 
     <string name="this_uri_is_invalid">이 URI는 유효하지 않습니다.</string>
 
-    <string name="synchronization_paths_title">동기화 경로 (클릭하면 삭제)</string>
+    <string name="synchronization_paths_title">동기화 경로 (선택하면 삭제)</string>
     <string name="add_more">추가</string>
     <string name="keep_records">기록 유지</string>
     <string name="keep_records_warning_title">기록을 보관하시겠습니까?</string>
@@ -515,8 +515,8 @@
     <string name="activity_widget_continue_play_option">이어하기 (아이템)</string>
     <string name="activity_widget_played_today_option">오늘 플레이한 아이템 (횟수)</string>
     <string name="activity_widget_viewed_today_option">오늘 조회한 아이템 (횟수)</string>
-    <string name="activity_widget_played_in_the_period_option">플레이한 아이템 (그리드)</string>
-    <string name="activity_widget_viewed_in_the_period_option">본 아이템 (그리드)</string>
+    <string name="activity_widget_played_in_the_period_option">플레이한 아이템 (그리드 뷰)</string>
+    <string name="activity_widget_viewed_in_the_period_option">본 아이템 (그리드 뷰)</string>
 
 
     <string name="checklist_widget_name">✅ 체크 리스트</string>
@@ -531,7 +531,7 @@
     <string name="image_block_widget_choose_image_action">🖼️ 이미지 선택</string>
 
     <string name="pin_and_play_widget_name">📌 아이템 고정</string>
-    <string name="pin_and_play_widget_description">아이템을 고정하고 클릭하여 플레이합니다.</string>
+    <string name="pin_and_play_widget_description">아이템을 고정하고 선택 시 플레이합니다.</string>
     <string name="pin_and_play_widget_choose_alternative_image_action">🖼️ 대체 이미지 선택</string>
     <string name="pin_and_play_widget_pick_an_item_action">\uD83D\uDD8A️ 아이템 선택</string>
 
@@ -540,7 +540,7 @@
     <string name="playlist_widget_description">아이템에 대한 플레이리스트를 만듭니다.</string>
 
     <string name="random_widget_name">🎲 랜덤</string>
-    <string name="random_widget_description">라이브러리에서 임의.</string>
+    <string name="random_widget_description">라이브러리에서 랜덤으로 선택.</string>
     <string name="random_widget_random_all_action">📙 전체 라이브러리</string>
     <string name="random_widget_favorite_action">❤️ 즐겨찾기</string>
     <string name="random_widget_recent_action">🕑 최근</string>
@@ -582,7 +582,7 @@
 
     <string name="widget_face_checklist_title">체크 리스트</string>
     <string name="widget_face_genres_title">장르</string>
-    <string name="widget_face_genres_subtitle">당신의 라이브러리.</string>
+    <string name="widget_face_genres_subtitle">당신의 라이브러리에서.</string>
     <string name="widget_face_pin_and_play_title">플레이</string>
     <string name="widget_face_pin_and_play_subtitle">아이템을 선택하세요.</string>
     <string name="widget_face_playlist_title">플레이리스트</string>
@@ -635,12 +635,12 @@
     <string name="horror_genre_name">공포</string>
     <string name="maze_genre_name">미로</string>
     <string name="casino_genre_name">카지노</string>
-    <string name="beat_em_up_genre_name">벨트스크롤 액션</string>
+    <string name="beat_em_up_genre_name">벨트스크롤</string>
     <string name="shoot_em_up_genre_name">슈팅</string>
     <string name="scrolling_genre_name">횡스크롤</string>
-    <string name="metroidvania_genre_name">메트로배니아</string>
+    <string name="metroidvania_genre_name">메트로이드배니아</string>
 
-    <string name="select_a_playable_item">플레이 가능한 아이템 선택</string>
+    <string name="select_a_playable_item">플레이 가능한 아이템으로 선택</string>
 
     <string name="misc_backup_and_restore_name">기타</string>
     <string name="settings_backup_and_restore_name">설정</string>
@@ -702,7 +702,7 @@
     <string name="backup_and_restore_settings_title">백업 및 복원</string>
     <string name="backup_and_restore_settings_summary">Google 드라이브 계정 등.</string>
     <string name="logger_settings_title">로그</string>
-    <string name="logger_settings_summary">클릭하면 앱의 로그를 보여줍니다.</string>
+    <string name="logger_settings_summary">선택하면 앱의 로그를 보여줍니다.</string>
 
 
 
@@ -714,14 +714,14 @@
     <string name="update_platforms_automatically_summary">시작 및 동기화 시 플랫폼 색인 URI에서 플랫폼을 업데이트합니다.</string>
     <string name="inspect_invisible_playable_items_title">숨겨진 아이템 보기</string>
     <string name="inspect_invisible_playable_items_summary">라이브러리에서 숨겨진 플레이 가능한 아이템을 확인합니다.</string>
-    <string name="click_to_set_visible">클릭하면 보이게 됩니다</string>
+    <string name="click_to_set_visible">선택하면 보이게 됩니다</string>
 
     <string name="merge_playable_items_title">플레이 가능한 아이템의 병합</string>
     <string name="merge_playable_items_summary">유사한 제목의 플레이 가능한 아이템을 병합합니다.</string>
     <string name="always_show_sync_icon_title">동기화 아이콘 항상 표시</string>
     <string name="always_show_sync_icon_summary">상단 표시줄에 동기화 아이콘을 표시합니다. 언제든지 동기화를 관리할 수 있습니다.</string>
-    <string name="do_not_scrap_preview_media_title">미리보기 미디어를 스크랩하지 않습니다.</string>
-    <string name="do_not_scrap_preview_media_summary">사용자 미디어가  존재하면, 미리보기 미디어를 스크랩하지 않습니다.</string>
+    <string name="do_not_scrap_preview_media_title">미리보기 미디어를 수집하지 않습니다.</string>
+    <string name="do_not_scrap_preview_media_summary">사용자 미디어가 존재한다면, 미리보기 미디어를 수집하지 않습니다.</string>
 
     <string name="set_wallpaper_title">배경화면 설정</string>
     <string name="set_wallpaper_summary">Daijishō 앱의 배경화면을 설정하세요.</string>
@@ -740,11 +740,11 @@
     <string name="platforms_collection_view_mode_title">플랫폼 컬렉션 보기 모드</string>
     <string name="platforms_collection_view_mode_summary">플랫폼 페이지에 대해 선호하는 보기 모드를 설정합니다.</string>
     <string name="download_platform_thumbnails_pack_title">플랫폼 썸네일 팩 다운로드</string>
-    <string name="download_platform_thumbnails_pack_summary">Daijishō Github 페이지에서 썸네일 팩을 다운로드하고 적용합니다.</string>
+    <string name="download_platform_thumbnails_pack_summary">Daijishō Github에서 썸네일 팩을 다운로드하고 적용합니다.</string>
 
 
     <string name="google_drive_account_button_title">Google 드라이브 계정</string>
-    <string name="google_drive_account_button_summary">Google 드라이브 계정을 설정하려면 클릭하세요.</string>
+    <string name="google_drive_account_button_summary">Google 드라이브 계정을 설정하려면 선택하세요.</string>
     <string name="print_google_drive_debug_logs_button_title">디버그 로그 덤프</string>
     <string name="print_google_drive_debug_logs_button_summary">로그에 디버그 정보를 덤프합니다.</string>
     <string name="automatically_backup_to_google_drive_title">자동 백업</string>
