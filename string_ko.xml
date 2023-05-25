@@ -167,17 +167,17 @@
     <string name="widget_remove_canceled">위젯이 삭제되지 않았습니다.</string>
     <string name="widget_created_successfully">위젯이 성공적으로 생성되었습니다.</string>
     <string name="widget_create_canceled">위젯이 생성되지 않았습니다.</string>
-    <string name="total_playable_item_counts_format">라이브러리에 총 %d개의 플레이 가능한 아이템이 있습니다.</string>
+    <string name="total_playable_items_count_format">라이브러리에 총 %d개의 플레이 가능한 아이템이 있습니다.</string>
 
     <!--  Platform page  -->
     <string name="library">라이브러리</string>
     <string name="syncing_format">동기화 중 - %s</string>
-    <string name="description_item_counts_format">%d 아이템 •\ </string>
+    <string name="description_items_count_format">%d 아이템 •\ </string>
     <string name="description_platform_index_format">플랫폼 %d 중 %d</string>
     <string name="share_platform_config_string">플랫폼 구성을 공유합니다.</string>
     <string name="share_platform_favorite_items_string">플랫폼 즐겨찾기 아이템을 공유합니다.</string>
     <string name="platform_format">%s 플랫폼</string>
-    <string name="item_counts_format">%s 아이템</string>
+    <string name="items_count_format">%s 아이템</string>
     <string name="favorite_format">%s 즐겨찾기</string>
     <string name="recent_format">%s 최근</string>
     <string name="new_format">%s 신규</string>
