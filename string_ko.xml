@@ -701,7 +701,7 @@
     <string name="retro_achievements_settings_summary">활성화/비활성화, 자격 증명.</string>
     <string name="backup_and_restore_settings_title">백업 및 복원</string>
     <string name="backup_and_restore_settings_summary">Google 드라이브 계정 등.</string>
-    <string name="logger_settings_title">로거</string>
+    <string name="logger_settings_title">로그</string>
     <string name="logger_settings_summary">클릭하면 앱의 로그를 보여줍니다.</string>
 
 
@@ -746,7 +746,7 @@
     <string name="google_drive_account_button_title">Google 드라이브 계정</string>
     <string name="google_drive_account_button_summary">Google 드라이브 계정을 설정하려면 클릭하세요.</string>
     <string name="print_google_drive_debug_logs_button_title">디버그 로그 덤프</string>
-    <string name="print_google_drive_debug_logs_button_summary">로거에 디버그 정보를 덤프합니다.</string>
+    <string name="print_google_drive_debug_logs_button_summary">로그에 디버그 정보를 덤프합니다.</string>
     <string name="automatically_backup_to_google_drive_title">자동 백업</string>
     <string name="automatically_backup_to_google_drive_summary">Daijishō 는 기준에 따라 자동으로 백업합니다.</string>
     <string name="backup_to_google_drive_button_title">지금 백업</string>
@@ -769,7 +769,7 @@
     <string name="adding_to_database">데이터베이스에 추가</string>
 
     <string name="daijishou_service_notification_content_title">Daijishō 서비스</string>
-    <string name="daijishou_service_notification_content_text">Daijishō 서비스가 실행 중입니다. 현재 장치에서 백그라운드에서 실행이 지원되지 않습니다.</string>
+    <string name="daijishou_service_notification_content_text">Daijishō 서비스가 실행 중입니다. 현재 장치에서 백그라운드 실행이 지원되지 않습니다.</string>
 
 
     <string-array name="platforms_collection_view_mode_array">
@@ -799,30 +799,30 @@
 
     <string-array name="theme_color_display_array">
         <item>퍼플</item>
-        <!--        <item>Purple (Monotonic)</item>-->
+        <!--        <item>Purple (단색)</item>-->
 
         <item>옐로우</item>
-        <!--        <item>옐로우 (단조로음)</item>-->
+        <!--        <item>옐로우 (단색)</item>-->
 
         <item>레드</item>
-        <!--        <item>레드 (단조로음)</item>-->
+        <!--        <item>레드 (단색)</item>-->
 
         <item>블루</item>
-        <!--        <item>Blue (단조로음)</item>-->
+        <!--        <item>Blue (단색)</item>-->
 
         <item>핑크</item>
-        <!--        <item>핑크 (단조로음)</item>-->
+        <!--        <item>핑크 (단색)</item>-->
 
         <item>블루그레이</item>
-        <item>블루그레이 (단조로음)</item>
+        <item>블루그레이 (단색)</item>
 
         <item>그레이</item>
-        <item>그레이 (단조로음)</item>
+        <item>그레이 (단색)</item>
 
         <item>그린</item>
         <item>슈퍼 그린</item>
     </string-array>
-    <string name="show_genres_in_platform_grid_view_title">그리드 보기에서 장르</string>
-    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 보기에서 장르를 표시합니다.</string>
+    <string name="show_genres_in_platform_grid_view_title">그리드 뷰에서 장르 표시</string>
+    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 뷰에서 장르를 표시합니다.</string>
 
 </resources>
