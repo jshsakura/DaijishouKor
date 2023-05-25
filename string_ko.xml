@@ -262,18 +262,18 @@
     <string name="continue_play_summary">플레이 할 때마다 이어하기 페이지로 전환합니다.</string>
     <string name="show_similar_items_title">유사한 아이템</string>
     <string name="show_similar_items_summary">상세 페이지에 유사한 아이템을 함께 표시합니다.</string>
-    <string name="disable_player_kill_package_processes_warning_title">플레이어 경고 비활성화</string>
-    <string name="disable_player_kill_package_processes_warning_summary">모든 플레이어 \"패키지 프로세스 종료\" 경고를 비활성화하고 재정의합니다.</string>
+    <string name="disable_player_kill_package_processes_warning_title">플레이어 경고 숨기기</string>
+    <string name="disable_player_kill_package_processes_warning_summary">모든 플레이어의 \"패키지 프로세스 종료\" 경고를 비활성화하고 재정의합니다.</string>
     <string name="use_aggressive_scraping_title">적극적인 스크래핑</string>
-    <string name="use_aggressive_scraping_summary">최소한의 제약으로 박스 아트 스크래핑. 이로인해 잘못된 박스 아트가 스크랩 될 수 있습니다.</string>
-    <string name="clear_disjointed_items_on_sync_title">동기화 시 분리된 모든 아이템 지우기</string>
-    <string name="clear_disjointed_items_on_sync_summary">동기화 시 연결이 해제되었거나 필수 파일이 존재하지 않는 모든 플레이 가능한 아이템을 지웁니다.</string>
+    <string name="use_aggressive_scraping_summary">최소한의 제약으로 박스 아트를 스크랩. 이로인해 잘못된 박스 아트가 스크랩 될 수 있습니다.</string>
+    <string name="clear_disjointed_items_on_sync_title">동기화 시 누락된 모든 아이템 삭제</string>
+    <string name="clear_disjointed_items_on_sync_summary">동기화 시 플레이 가능한 아이템 중 필수 파일이 누락된 모든 아이템을 삭제합니다.</string>
     <string name="more_players_and_platforms_settings_title">상세 설정</string>
     <string name="more_players_and_platforms_settings_summary">플레이어 및 플랫폼 설정을 가져오고 다운로드합니다.</string>
     <string name="disable_all_custom_players_title">모든 사용자 지정 플레이어 비활성화</string>
     <string name="disable_all_custom_players_summary">직접 설정한 모든 사용자 지정 플레이어를 비활성화합니다.</string>
-    <string name="clear_all_disjointed_playable_items_title">분리된 모든 아이템 지우기</string>
-    <string name="clear_all_disjointed_playable_items_summary">연결이 해제되었거나 필수 파일이 존재하지 않는 플레이 가능한 아이템을 모두 지웁니다.</string>
+    <string name="clear_all_disjointed_playable_items_title">누락된 모든 아이템 삭제</string>
+    <string name="clear_all_disjointed_playable_items_summary">플레이 가능한 아이템 중 실제 경로에 필수 파일이 누락된 모든 아이템을 삭제합니다.</string>
     <string name="remove_all_playable_items_preview_media_title">모든 아이템의 미리보기 미디어 삭제</string>
     <string name="remove_all_playable_items_preview_media_summary">기기에서 모든 아이템의 미리보기 미디어를 삭제하세요. 해당 미디어를 다시 스크랩해야 합니다.</string>
     <string name="update_platforms_on_startup_title">시작 시 플랫폼 업데이트</string>
@@ -288,10 +288,10 @@
     <string name="add_player_summary">컬렉션을 플레이할 플레이어를 추가하세요.</string>
     <string name="add_platform_title">플랫폼 추가</string>
     <string name="add_platform_summary">컬렉션을 만들 플랫폼을 추가합니다.</string>
-    <string name="inspect_players_title">플레이어 확인</string>
-    <string name="inspect_players_summary">플레이어를 보고 편집하거나 삭제합니다.</string>
-    <string name="inspect_platforms_title">플랫폼 확인</string>
-    <string name="inspect_platforms_summary">플랫폼 보기, 편집 또는 삭제.</string>
+    <string name="inspect_players_title">플레이어 리스트</string>
+    <string name="inspect_players_summary">플레이어를 확인하고 편집하거나 삭제합니다.</string>
+    <string name="inspect_platforms_title">플랫폼 리스트</string>
+    <string name="inspect_platforms_summary">플랫폼을 확인하고 편집 또는 삭제.</string>
 
     <string name="please_select_from_the_list">리스트에서 선택해주세요.</string>
     <string name="item_has_been_selected">이 아이템은 이미 선택되었습니다.</string>
@@ -307,13 +307,13 @@
     <string name="title">제목</string>
 
     <string name="download_platform_wallpapers_pack_title">플랫폼 배경화면 팩 다운로드</string>
-    <string name="download_platform_wallpapers_pack_summary">Daijishō Github 페이지에서 배경화면 팩을 다운로드하고 적용해보세요.</string>
+    <string name="download_platform_wallpapers_pack_summary">Daijishō Github를 통해 플랫폼의 배경화면 팩을 다운로드하고 적용해보세요.</string>
     <string name="theme_color_title">테마 색상</string>
     <string name="theme_color_summary">원하는 테마 색상을 설정합니다.</string>
     <string name="use_dark_theme_title">어두운 테마</string>
     <string name="use_dark_theme_summary">어두운 테마를 활성화하거나 비활성화합니다.</string>
     <string name="use_pure_dark_theme_title">순수하게 어두운 테마</string>
-    <string name="use_pure_dark_theme_summary">OLED 등을 사용하는 장치에서 순수하게 어두운 테마를 활성화합니다.</string>
+    <string name="use_pure_dark_theme_summary">OLED를 사용하는 기기를 위한 순수하게 어두운 (Pure Dark) 테마를 활성화합니다.</string>
     <string name="more_appearance_settings_title">상세 설정</string>
     <string name="more_appearance_settings_summary">모양 상세 설정.</string>
     <string name="enforce_platform_card_aspect_ratio_title">강제 종횡비</string>
@@ -345,7 +345,7 @@
     <string name="disable_b_button_sound_summary">반복되는 B 버튼 효과음을 피하시려면 비활성화하세요.</string>
 
     <string name="home_page_title">홈 페이지</string>
-    <string name="home_page_summary">홈 버튼을 클릭할 때 나타낼 기본 페이지를 설정합니다.</string>
+    <string name="home_page_summary">홈 버튼을 누르면 보여줄 기본 페이지를 설정합니다.</string>
     <string name="search_hotkey_title">검색 단축키</string>
     <string name="search_hotkey_summary">검색 단축키를 설정합니다.</string>
     <string name="tabs_hotkeys_title">탭 단축키</string>
@@ -515,8 +515,8 @@
     <string name="activity_widget_continue_play_option">이어하기 (아이템)</string>
     <string name="activity_widget_played_today_option">오늘 플레이한 아이템 (횟수)</string>
     <string name="activity_widget_viewed_today_option">오늘 조회한 아이템 (횟수)</string>
-    <string name="activity_widget_played_in_the_period_option">해당 기간에 플레이한 아이템 (그리드)</string>
-    <string name="activity_widget_viewed_in_the_period_option">해당 기간에 본 아이템 (그리드)</string>
+    <string name="activity_widget_played_in_the_period_option">플레이한 아이템 (그리드)</string>
+    <string name="activity_widget_viewed_in_the_period_option">본 아이템 (그리드)</string>
 
 
     <string name="checklist_widget_name">✅ 체크 리스트</string>
@@ -573,16 +573,16 @@
     <string name="widget_face_activity_today_today">오늘.</string>
     <string name="widget_face_activity_today_you_have_played_today">오늘.</string>
     <string name="widget_face_activity_today_you_have_viewed_today">오늘.</string>
-    <string name="widget_face_activity_today_you_have_played">최근 \n플레이</string>
-    <string name="widget_face_activity_today_you_have_viewed">최근 본 \n아이템</string>
+    <string name="widget_face_activity_today_you_have_played">당신의 \n플레이</string>
+    <string name="widget_face_activity_today_you_have_viewed">보았던 \n아이템</string>
     <string name="widget_face_activity_today_playable_items_played">오늘 플레이한 아이템</string>
     <string name="widget_face_activity_today_playable_items_viewed">오늘 본 아이템</string>
-    <string name="widget_face_activity_grid_playable_item_played">해당 기간 동안 플레이한 아이템</string>
-    <string name="widget_face_activity_grid_playable_item_viewed">해당 기간 동안 본 아이템</string>
+    <string name="widget_face_activity_grid_playable_item_played">특정 기간 동안 플레이한 아이템</string>
+    <string name="widget_face_activity_grid_playable_item_viewed">특정 기간 동안 본 아이템</string>
 
     <string name="widget_face_checklist_title">체크 리스트</string>
     <string name="widget_face_genres_title">장르</string>
-    <string name="widget_face_genres_subtitle">당신의 도서관을 위해.</string>
+    <string name="widget_face_genres_subtitle">당신의 라이브러리.</string>
     <string name="widget_face_pin_and_play_title">플레이</string>
     <string name="widget_face_pin_and_play_subtitle">아이템을 선택하세요.</string>
     <string name="widget_face_playlist_title">플레이리스트</string>
@@ -683,7 +683,7 @@
     <string name="select_a_backup">백업 선택</string>
     <string name="select_a_backup_hint">백업 선택 (길게 눌러서 삭제)</string>
     <string name="last_backup_time_format">마지막 백업: %s</string>
-    <string name="from_this_daijishou">이 Daijishō 에서</string>
+    <string name="from_this_daijishou">현재 Daijishō</string>
     <string name="delete_a_backup">백업 삭제</string>
     <string name="delete_this_backup_hint">이 백업을 삭제하시겠습니까?</string>
 
@@ -707,7 +707,7 @@
 
 
     <string name="sync_entirely_title">전체 동기화</string>
-    <string name="sync_entirely_summary">설정에 따라 한 번의 클릭으로 플랫폼 업데이트, 라이브러리 동기화, 설정 백업 등을 할 수 있습니다.</string>
+    <string name="sync_entirely_summary">전체 플랫폼을 업데이트하고 라이브러리 동기화, 설정 백업 등을 진행합니다.</string>
     <string name="remove_all_newly_added_playable_items_title">신규 추가 아이템 삭제</string>
     <string name="remove_all_newly_added_playable_items_summary">라이브러리에 새로 추가된 것으로 표시된 모든 플레이 가능한 아이템을 삭제합니다.</string>
     <string name="update_platforms_automatically_title">자동으로 플랫폼 업데이트</string>
@@ -716,10 +716,10 @@
     <string name="inspect_invisible_playable_items_summary">라이브러리에서 숨겨진 플레이 가능한 아이템을 확인합니다.</string>
     <string name="click_to_set_visible">클릭하면 보이게 됩니다</string>
 
-    <string name="merge_playable_items_title">플레이 가능한 아이템 병합</string>
+    <string name="merge_playable_items_title">플레이 가능한 아이템의 병합</string>
     <string name="merge_playable_items_summary">유사한 제목의 플레이 가능한 아이템을 병합합니다.</string>
     <string name="always_show_sync_icon_title">동기화 아이콘 항상 표시</string>
-    <string name="always_show_sync_icon_summary">항상 상단 표시줄에 동기화 아이콘을 표시합니다. 언제든지 동기화를 관리할 수 있습니다.</string>
+    <string name="always_show_sync_icon_summary">상단 표시줄에 동기화 아이콘을 표시합니다. 언제든지 동기화를 관리할 수 있습니다.</string>
     <string name="do_not_scrap_preview_media_title">미리보기 미디어를 스크랩하지 않습니다.</string>
     <string name="do_not_scrap_preview_media_summary">사용자 미디어가  존재하면, 미리보기 미디어를 스크랩하지 않습니다.</string>
 
