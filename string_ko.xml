@@ -95,9 +95,9 @@
     <string name="aborted">중단됨</string>
     <string name="aborted_period">중단됨.</string>
     <string name="add">추가</string>
-    <string name="added_successfully">성공적으로 추가되었습니다.</string>
+    <string name="added_successfully">추가되었습니다.</string>
     <string name="edit">수정</string>
-    <string name="edited_successfully">성공적으로 수정되었습니다.</string>
+    <string name="edited_successfully">수정되었습니다.</string>
     <string name="warning">경고</string>
     <string name="loading">로딩 중</string>
     <string name="back">뒤로</string>
@@ -165,7 +165,7 @@
     <string name="move">이동</string>
     <string name="widget_removed_successfully">위젯이 삭제되었습니다.</string>
     <string name="widget_remove_canceled">위젯이 삭제되지 않았습니다.</string>
-    <string name="widget_created_successfully">위젯이 성공적으로 생성되었습니다.</string>
+    <string name="widget_created_successfully">위젯이 생성되었습니다.</string>
     <string name="widget_create_canceled">위젯이 생성되지 않았습니다.</string>
     <string name="total_playable_items_count_format">라이브러리에 총 %d개의 플레이 가능한 아이템이 있습니다.</string>
 
@@ -409,7 +409,7 @@
     <string name="new_platform">새로운 플랫폼</string>
     <string name="delete_platform">플랫폼 삭제</string>
     <string name="delete_platform_warning_format">정말로 "%s"을(를) 삭제하시겠습니까? 아이템과 기록이 사라집니다.</string>
-    <string name="deleted_successfully">성공적으로 삭제합니다.</string>
+    <string name="deleted_successfully">삭제되었습니다.</string>
     <string name="delete_unused_players">사용하지 않는 플레이어 삭제</string>
     <string name="delete_unused_players_warning_format">"%s" 플랫폼과 연결된 미사용 플레이어도 삭제하시겠습니까?</string>
     <string name="yes_delete_all">예 모두 삭제</string>
