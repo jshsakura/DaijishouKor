@@ -89,7 +89,7 @@
     <string name="replace">교체</string>
     <string name="clear">비우기</string>
     <string name="delete">삭제</string>
-    <string name="remove">삭제됨</string>
+    <string name="remove">제거</string>
     <string name="reset">초기화</string>
     <string name="abort">중단</string>
     <string name="aborted">중단됨</string>
@@ -173,7 +173,7 @@
     <string name="library">라이브러리</string>
     <string name="syncing_format">동기화 중 - %s</string>
     <string name="description_items_count_format">%d 아이템 •\ </string>
-    <string name="description_platform_index_format">플랫폼 %d 중 %d</string>
+    <string name="description_platform_index_format">플랫폼 %d / %d</string>
     <string name="share_platform_config_string">플랫폼 구성을 공유합니다.</string>
     <string name="share_platform_favorite_items_string">플랫폼 즐겨찾기 아이템을 공유합니다.</string>
     <string name="platform_format">%s 플랫폼</string>
@@ -216,13 +216,13 @@
     <string name="achievement_points_format">%d 포인트</string>
     <string name="achievement_completed">완료됨.</string>
     <string name="achievement_incomplete">진행중.</string>
-    <string name="achievement_detail_format">🏁 업적 %d 중 %d.\n%s</string>
+    <string name="achievement_detail_format">🏁 업적 %d / %d.\n%s</string>
     <string name="no_description_for_this_achievement">이 업적에 대한 설명이 없습니다.</string>
     <string name="please_login">로그인 해주세요.</string>
     <string name="loading_username">사용자 이름 불러오는 중…</string>
     <string name="loading_data">데이터 불러오는 중…</string>
-    <string name="n_of_m_format">%d 중 %d</string>
-    <string name="n_of_m_completed_abbreviation_format">%d 중 %d</string>
+    <string name="n_of_m_format">%d / %d</string>
+    <string name="n_of_m_completed_abbreviation_format">%d / %d</string>
     <string name="achievement_completed_format">%.1f%% 완료되었습니다.</string>
     <string name="user_achievement_description_format">🏆 총 %d 포인트, 하드코어 %d 포인트, 소프트코어 %d 포인트.</string>
     <string name="daily">일일</string>
@@ -312,8 +312,8 @@
     <string name="theme_color_summary">원하는 테마 색상을 설정합니다.</string>
     <string name="use_dark_theme_title">어두운 테마</string>
     <string name="use_dark_theme_summary">어두운 테마를 활성화하거나 비활성화합니다.</string>
-    <string name="use_pure_dark_theme_title">순수하게 어두운 테마</string>
-    <string name="use_pure_dark_theme_summary">OLED를 사용하는 기기를 위한 순수하게 어두운 (Pure Dark) 테마를 활성화합니다.</string>
+    <string name="use_pure_dark_theme_title">순수 어두운 테마</string>
+    <string name="use_pure_dark_theme_summary">OLED등을 사용하는 기기를 위한 순수하게 어두운(Pure Dark) 테마를 활성화합니다.</string>
     <string name="more_appearance_settings_title">상세 설정</string>
     <string name="more_appearance_settings_summary">모양 상세 설정.</string>
     <string name="enforce_platform_card_aspect_ratio_title">강제 종횡비</string>
@@ -389,7 +389,7 @@
     <string name="search_your_apps_library">앱 라이브러리 검색</string>
     <string name="select_platforms">플랫폼 선택</string>
     <string name="select_platforms_no_selections_format">플랫폼 선택(%d 아이템)</string>
-    <string name="select_platforms_format">플랫폼 선택(%d 중 /%d 아이템)</string>
+    <string name="select_platforms_format">플랫폼 선택(%d / /%d 아이템)</string>
     <string name="imported_platforms_result_format">%d개의 플랫폼을 가져왔습니다. %d에 실패했습니다.</string>
     <string name="platform_wallpapers_packs">플랫폼 배경화면 팩</string>
     <string name="authors_format">작성자: %s</string>
@@ -412,7 +412,7 @@
     <string name="deleted_successfully">삭제되었습니다.</string>
     <string name="delete_unused_players">사용하지 않는 플레이어 삭제</string>
     <string name="delete_unused_players_warning_format">"%s" 플랫폼과 연결된 미사용 플레이어도 삭제하시겠습니까?</string>
-    <string name="yes_delete_all">예 모두 삭제</string>
+    <string name="yes_delete_all">모두 삭제</string>
     <string name="general_settings">일반 설정</string>
     <string name="wallpaper_settings">배경화면 설정</string>
     <string name="player_settings">플레이어 설정</string>
@@ -462,14 +462,14 @@
     <string name="title_removed">제목이 삭제되었습니다.</string>
     <string name="preview_media_settings">미리보기 미디어 설정</string>
     <string name="scraper_keywords_settings">스크래퍼 키워드 설정</string>
-    <string name="genres_settings">장르 설정</string>
+    <string name="genres_settings">게임 장르 설정</string>
     <string name="custom_player_settings">사용자 지정 플레이어 설정</string>
     <string name="playable_item_name_settings_hint">플레이 가능한 아이템 이름</string>
     <string name="playable_item_scrape_name_settings_hint">스크래퍼로 수집된 이름으로 대체</string>
     <string name="playable_item_preview_media_settings_hint">미리보기 미디어 수정</string>
     <string name="playable_item_scraper_keywords_settings_hint">스크래퍼 키워드 입력</string>
     <string name="playable_item_scrape_scraper_keywords_settings_hint">스크래퍼 키워드를 사용</string>
-    <string name="playable_item_scraper_genres_settings_hint">장르 선택</string>
+    <string name="playable_item_scraper_genres_settings_hint">게임 장르 선택</string>
     <string name="playable_item_custom_player_settings_hint">사용자 지정 플레이어</string>
     <string name="playable_item_reset_record_settings_hint">아이템 초기화</string>
     <string name="playable_item_scrape_preview_media_settings_hint">미리보기 미디어 수집</string>
@@ -523,8 +523,8 @@
     <string name="checklist_widget_description">체크 리스트를 만드세요.</string>
     <string name="checklist_widget_edit_action">🖊️ 편집</string>
 
-    <string name="genres_widget_name">🌟  장르</string>
-    <string name="genres_widget_description">장르, 최근, 즐겨찾기 및 새로 추가된 항목으로 필터링된 항목을 검사합니다.</string>
+    <string name="genres_widget_name">🌟 게임 장르</string>
+    <string name="genres_widget_description">게임 장르, 최근, 즐겨찾기 및 새로 추가된 항목으로 필터링된 항목을 검사합니다.</string>
 
     <string name="image_block_widget_name">🖼️ 이미지 블록</string>
     <string name="image_block_widget_description">이미지 블록 위젯.</string>
@@ -576,15 +576,15 @@
     <string name="widget_face_activity_today_you_have_played">당신의 \n플레이</string>
     <string name="widget_face_activity_today_you_have_viewed">보았던 \n아이템</string>
     <string name="widget_face_activity_today_playable_items_played">오늘 플레이한 아이템</string>
-    <string name="widget_face_activity_today_playable_items_viewed">오늘 본 아이템</string>
+    <string name="widget_face_activity_today_playable_items_viewed">오늘 보았던 아이템</string>
     <string name="widget_face_activity_grid_playable_item_played">특정 기간 동안 플레이한 아이템</string>
     <string name="widget_face_activity_grid_playable_item_viewed">특정 기간 동안 본 아이템</string>
 
     <string name="widget_face_checklist_title">체크 리스트</string>
-    <string name="widget_face_genres_title">장르</string>
-    <string name="widget_face_genres_subtitle">당신의 라이브러리에서.</string>
+    <string name="widget_face_genres_title">게임 장르</string>
+    <string name="widget_face_genres_subtitle">전체 아이템 게임 장르별 분류.</string>
     <string name="widget_face_pin_and_play_title">플레이</string>
-    <string name="widget_face_pin_and_play_subtitle">아이템을 선택하세요.</string>
+    <string name="widget_face_pin_and_play_subtitle">먼저 아이템을 선택하세요.</string>
     <string name="widget_face_playlist_title">플레이리스트</string>
     <string name="widget_face_playlist_subtitle">새로운 플레이리스트</string>
 
@@ -601,7 +601,7 @@
     <string name="widget_face_random_newly_option">신규 아이템</string>
 
     <string name="widget_face_retro_achievements_user_profile_title">레트로</string>
-    <string name="widget_face_retro_achievements_user_profile_subtitle">업적</string>
+    <string name="widget_face_retro_achievements_user_profile_subtitle">도전과제</string>
 
     <string name="widget_face_rss_title">RSS 피드</string>
     <string name="widget_face_rss_subtitle">RSS URL이 필요합니다.</string>
@@ -636,9 +636,9 @@
     <string name="maze_genre_name">미로</string>
     <string name="casino_genre_name">카지노</string>
     <string name="beat_em_up_genre_name">벨트스크롤</string>
-    <string name="shoot_em_up_genre_name">슈팅</string>
+    <string name="shoot_em_up_genre_name">진행형 슈팅</string>
     <string name="scrolling_genre_name">횡스크롤</string>
-    <string name="metroidvania_genre_name">메트로이드배니아</string>
+    <string name="metroidvania_genre_name">메트로배니아</string>
 
     <string name="select_a_playable_item">플레이 가능한 아이템으로 선택</string>
 
@@ -729,7 +729,7 @@
     <string name="set_wallpaper_for_all_summary">사용 가능한 모든 페이지의 배경화면을 설정합니다.</string>
     <string name="wallpaper_set">배경화면 세트.</string>
     <string name="scale_ui_title">화면 비율</string>
-    <string name="scale_ui_summary">화면에 더 잘 맞도록 Daijishō UI를 조정할 수 있습니다.</string>
+    <string name="scale_ui_summary">화면에 맞게 Daijishō UI를 조정할 수 있습니다.</string>
     <string name="hide_platforms_page_title_title">제목 숨기기</string>
     <string name="hide_platforms_page_title_summary">플랫폼 페이지의 제목을 사용하지 않습니다.</string>
     <string name="hide_platforms_page_subtitle_title">부제목 숨기기</string>
@@ -822,7 +822,7 @@
         <item>그린</item>
         <item>슈퍼 그린</item>
     </string-array>
-    <string name="show_genres_in_platform_grid_view_title">그리드 뷰에서 장르 표시</string>
-    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 뷰에서 장르를 표시합니다.</string>
+    <string name="show_genres_in_platform_grid_view_title">그리드 뷰에서 게임 장르 표시</string>
+    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 뷰 상단에 게임 장르를 함께 표시합니다.</string>
 
 </resources>
