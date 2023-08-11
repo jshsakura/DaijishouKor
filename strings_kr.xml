@@ -1,7 +1,7 @@
 <!--
   ~ Copyright(c) 2023 Daijishou project, TapiocaFox. All rights reserved.
   ~ Created by TapiocaFox (magneticchen) on 21/03/2023, 09:36.
-  ~ Last modified 21/03/2023, 05:40.
+  ~ Last modified 21/03/2023, 05:38.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -19,6 +19,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Daijishō</string>
     <string name="daijishou_launcher">Daijishō Launcher</string>
+<string name="daijishou_description" translatable="false">Daijishō is a retro launcher that lets you manage your retro games libraries. Daijishō cares about integrated experience, extensibility, aesthetic, and pragmatic usabilities, which let you focus on the games themselves. It will be updated continuously in the future based on user feedback and my own retro gaming experience during my free time. Beware, it does not come with emulators.\n\n"Wat? What does 'Daijishō' even mean?", you ask? "Daijishō" (aka "だいじしょう") actually stands for "台字章" in kanji, which was a pattern widely used in Taiwan during the Japanese period. Anyway, happy gaming.</string>
     <string name="copyright_statement">copyright©2023 TapiocaFox.\nDesigned in Taiwan.</string>
     <string name="page">페이지</string>
     <string name="localization_credit">현지화 담당자:\nOpenCourse</string>
@@ -118,7 +119,7 @@
     <string name="password">비밀번호</string>
 
     <!--  Daijishou library  -->
-    <string name="replace_platform_warning_title">플랫폼 교체</string>
+    <string name="replace_platform_warning_title">플랫폼 변경</string>
     <string name="replace_platform_warning_description_format">짧은 이름이 \"%s\"인 플랫폼이 이미 Daijishō 에 존재합니다. 가져온 플랫폼 \"%s\"에서 플랫폼 및 플레이어 설정을 교체하시겠습니까?\n\n⚠️ 일부 설정이 변경될 수 있으니 주의하세요.</string>
     <string name="package_format">패키지 \"%s\"</string>
     <string name="the_player_is_not_available_warning_format">기기에 \"%s\"이(가) 없습니다. 플레이 스토어에서 또는 \"찾기\"를 선택하면 장치에서 사용 가능한 플레이어를 감지할 수 있습니다.</string>
@@ -329,6 +330,8 @@
     <string name="swap_a_b_buttons_summary">취향에 맞게 하단에 표시된 A 버튼과 B 버튼을 맞바꿀 수 있습니다.</string>
     <string name="show_recent_indicators_title">새로 추가된 아이템에 알림 아이콘 표시</string>
     <string name="show_recent_indicators_summary">리스트에서 최근 추가된 아이템 옆에 알림 아이콘을 표시합니다.</string>
+    <string name="show_genres_in_platform_grid_view_title">그리드 뷰에서 장르 표시</string>
+    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 뷰에서 장르를 표시합니다.</string>
     <string name="use_widgets_page_title">위젯 페이지</string>
     <string name="use_widgets_page_summary">위젯 페이지를 사용합니다.</string>
     <string name="use_apps_page_title">앱 페이지</string>
@@ -378,7 +381,7 @@
     <string name="changelogs_title">새로운 소식은 무엇인가요?</string>
     <string name="changelogs_summary">이전 버전의 변경 로그를 참조하세요.</string>
     <string name="donation_title">기부하기</string>
-    <string name="donation_summary">개발자를 위해 커피 한 잔 사주시는것은 어떠세요.</string>
+    <string name="donation_summary">개발자를 위해 커피 한 잔 사주시는 것은 어떠신가요.</string>
     <string name="discord_title">디스코드 서버</string>
     <string name="discord_summary">Discord 서버에 가입하여 질문을 하거나 설정을 공유하세요.</string>
     <string name="github_title">GitHub 페이지</string>
@@ -404,7 +407,7 @@
     <string name="download_pack">팩 다운로드</string>
     <string name="index_uri_tips">플랫폼을 다운로드하려면 index.json URI를 지정하세요.</string>
     <string name="rss_uri_title">RSS URL 편집</string>
-    <string name="rss_uri_tips">최신 뉴스를 받으려면 RSS URL을 지정하십시오.</string>
+    <string name="rss_uri_tips">뉴스 RSS URL을 지정하면 최신 뉴스를 가져올 수 있습니다.</string>
 
 
     <string name="edit_the_platform_format">플랫폼(%s) 편집</string>
@@ -446,11 +449,12 @@
     <string name="bad_aspect_ratio_format">종횡비 형식이 잘못되었습니다.</string>
     <string name="import_preview_media_for_platform">미리보기 미디어 불러오기</string>
     <string name="import_preview_media_for_platform_hint">\"Skraper\"와 같은 외부 소스에서 미리 보기 미디어를 가져옵니다.</string>
-
     <string name="import_dat_file_for_platform">.dat 파일 가져오기</string>
     <string name="import_dat_file_for_platform_hint">\"Skraper\"와 같은 외부 소스에서 .dat 파일을 가져옵니다.</string>
     <string name="import_xml_file_for_platform">.xml 파일 가져오기</string>
     <string name="import_xml_file_for_platform_hint">\"Skraper\"와 같은 외부 소스에서 .xml 파일을 가져옵니다.  (Emulation Station)</string>
+    
+
     <string name="edit_the_playable_item">플레이 가능한 아이템 수정</string>
     <string name="playable_item_visibility_settings_hint">보이기 (플레이 가능한 아이템)</string>
     <string name="unlink_file">파일 연결해제</string>
@@ -490,7 +494,7 @@
     <string name="player_accepted_filename_regex_settings_hint">플레이어 허용 파일 이름 정규식</string>
     <string name="player_accepted_filename_regex_settings_more_hint">정규식 그룹 1은 스크래퍼 엔진의 키워드로 사용됩니다. https://regex101.com/ 에서 시도하십시오.</string>
     <string name="player_kill_package_processes_hint">시작하기 전에 패키지 프로세스 종료</string>
-    <string name="player_associated_platforms_title">연관 플랫폼</string>
+    <string name="player_associated_platforms_title">관련된 플랫폼</string>
     <string name="invalid_launcher_arguments">런처의 인수가 유효하지 않습니다.</string>
 
     <string name="press_the_key_twice_to_register">키를 두 번 눌러 등록합니다.</string>
@@ -498,7 +502,7 @@
 
     <string name="this_uri_is_invalid">이 URI는 유효하지 않습니다.</string>
 
-    <string name="synchronization_paths_title">동기화 경로 (선택하면 삭제)</string>
+    <string name="synchronization_paths_title">동기화 경로 (클릭하면 제거)</string>
     <string name="add_more">추가</string>
     <string name="keep_records">기록 유지</string>
     <string name="keep_records_warning_title">기록을 보관하시겠습니까?</string>
@@ -585,7 +589,7 @@
 
     <string name="widget_face_checklist_title">체크 리스트</string>
     <string name="widget_face_genres_title">게임 장르</string>
-    <string name="widget_face_genres_subtitle">전체 아이템 게임 장르별 분류.</string>
+    <string name="widget_face_genres_subtitle">라이브러리 장르별 분류.</string>
     <string name="widget_face_pin_and_play_title">플레이</string>
     <string name="widget_face_pin_and_play_subtitle">먼저 아이템을 선택하세요.</string>
     <string name="widget_face_playlist_title">플레이리스트</string>
@@ -649,8 +653,7 @@
     <string name="golf_genre_name">골프</string>
     <string name="baseball_genre_name">야구</string>
     <string name="basketball_genre_name">농구</string>
-    <string name="erotic_genre_name">에로</string>
-
+    <string name="erotic_genre_name">에로틱</string>
 
     <string name="select_a_playable_item">플레이 가능한 아이템으로 선택</string>
 
@@ -783,12 +786,67 @@
     <string name="daijishou_service_notification_content_title">Daijishō 서비스</string>
     <string name="daijishou_service_notification_content_text">Daijishō 서비스가 실행 중입니다. 현재 장치에서 백그라운드 실행이 지원되지 않습니다.</string>
 
+<!--  1.5 update  -->
+    <string name="extensions_title">확장 프로그램</string>
+    <string name="extensions_summary">확장 프로그램을 설치, 탐색, 제거 및 업데이트합니다.</string>
+    <string name="browse_extensions_title">확장 프로그램 찾아보기</string>
+    <string name="browse_extensions_summary">저장소에서 확장 프로그램을 검색합니다.</string>
+    <string name="extensions_options_title">확장 프로그램 설정</string>
+    <string name="install_extension_locally_title">로컬 확장 프로그램 설치</string>
+    <string name="install_extension_locally_summary">직접 로컬(기기)에서 확장 프로그램을 설치합니다.</string>
+    <string name="extensions_repositories_title">확장 프로그램 저장소</string>
+    <string name="extensions_repositories_summary">확장 프로그램 저장소들을 관리합니다.</string>
+    <string name="implementations_title">확장 프로그램 구현</string>
+    <string name="implementations_summary">설치된 확장 프로그램에서 제공하는 기능을 관리합니다.</string>
+    <string name="installed_extensions_title">설치된 확장 프로그램</string>
+    <string name="non_top_level_extensions_title">추가 확장 프로그램</string>
+    <string name="non_top_level_extensions_summary">최상위 레벨이 아닌 확장 프로그램들을 보여줍니다.</string>
+
+    <string-array name="scale_ui_array">
+        <item>0.8</item>
+        <item>0.85</item>
+        <item>0.9</item>
+        <item>0.925</item>
+        <item>0.95</item>
+        <item>0.975</item>
+        <item>Default</item>
+        <item>1.025</item>
+        <item>1.05</item>
+        <item>1.075</item>
+        <item>1.1</item>
+        <item>1.15</item>
+        <item>1.2</item>
+        <item>1.25</item>
+    </string-array>
+
+    <string-array name="scale_ui_value_array">
+        <item>0.8</item>
+        <item>0.85</item>
+        <item>0.9</item>
+        <item>0.925</item>
+        <item>0.95</item>
+        <item>0.975</item>
+        <item>1</item>
+        <item>1.025</item>
+        <item>1.05</item>
+        <item>1.075</item>
+        <item>1.1</item>
+        <item>1.15</item>
+        <item>1.2</item>
+        <item>1.25</item>
+    </string-array>
 
     <string-array name="platforms_collection_view_mode_array">
         <item>배경화면 모드</item>
         <item>썸네일 모드</item>
+        <item>웹뷰 모드</item>
     </string-array>
 
+    <string-array name="platforms_collection_view_mode_value_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
     <!--  1.4 update end  -->
 
@@ -798,32 +856,45 @@
         <item>밝게</item>
     </string-array>
 
+    <string-array name="dark_mode_value_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
     <string-array name="home_page_id_display_name_array">
         <item>플랫폼</item>
         <!--        <item>이어하기</item>-->
-        <!--        <item>하이라이트</item>-->
+<!--        <item>하이라이트</item>-->
         <item>위젯</item>
         <item>앱</item>
         <item>설정</item>
     </string-array>
 
+    <string-array name="home_page_id_value_array">
+        <item>platforms</item>
+        <!--        <item>continue</item>-->
+<!--        <item>highlight</item>-->
+        <item>widgets</item>
+        <item>apps</item>
+        <item>settings</item>
+    </string-array>
 
     <string-array name="theme_color_display_array">
         <item>퍼플</item>
-        <!--        <item>Purple (단색)</item>-->
+<!--        <item>Purple (Monotonic)</item>-->
 
         <item>옐로우</item>
-        <!--        <item>옐로우 (단색)</item>-->
+<!--        <item>Yellow (Monotonic)</item>-->
 
         <item>레드</item>
-        <!--        <item>레드 (단색)</item>-->
+<!--        <item>Red (Monotonic)</item>-->
 
         <item>블루</item>
-        <!--        <item>Blue (단색)</item>-->
+<!--        <item>Blue (Monotonic)</item>-->
 
         <item>핑크</item>
-        <!--        <item>핑크 (단색)</item>-->
+<!--        <item>Pink (Monotonic)</item>-->
 
         <item>블루그레이</item>
         <item>블루그레이 (단색)</item>
@@ -834,7 +905,187 @@
         <item>그린</item>
         <item>슈퍼 그린</item>
     </string-array>
-    <string name="show_genres_in_platform_grid_view_title">그리드 뷰에서 게임 장르 표시</string>
-    <string name="show_genres_in_platform_grid_view_summary">플랫폼의 그리드 뷰 상단에 게임 장르를 함께 표시합니다.</string>
 
+    <string-array name="theme_color_value_array">
+        <item>purple</item>
+<!--        <item>purple_monotonic</item>-->
+
+        <item>yellow</item>
+<!--        <item>yellow_monotonic</item>-->
+
+        <item>red</item>
+<!--        <item>red_monotonic</item>-->
+
+        <item>blue</item>
+<!--        <item>blue_monotonic</item>-->
+
+        <item>pink</item>
+<!--        <item>pink_monotonic</item>-->
+
+        <item>blue_grey</item>
+        <item>blue_grey_monotonic</item>
+
+        <item>grey</item>
+        <item>grey_monotonic</item>
+
+        <item>green</item>
+        <item>super_green</item>
+    </string-array>
+
+    <string-array name="box_art_aspect_ratio_array">
+        <item>1:1</item>
+        <item>4:3</item>
+        <item>3:4</item>
+        <item>48:65</item>
+        <item>57:40</item>
+        <item>112:192</item>
+        <item>134:192</item>
+    </string-array>
+
+    <string-array name="box_art_aspect_ratio_description_array">
+        <item>square</item>
+        <item>tv/n64</item>
+        <item>tv(Vertical)</item>
+        <item>nes</item>
+        <item>snes</item>
+        <item>psp</item>
+        <item>ps2</item>
+    </string-array>
+
+    <string-array name="screen_aspect_ratio_array">
+        <item>1:1</item>
+        <item>4:3</item>
+        <item>10:9</item>
+        <item>3:2</item>
+        <item>30:17</item>
+        <item>2:3</item>
+        <item>16:9</item>
+    </string-array>
+        
+    <string-array name="screen_aspect_ratio_description_array">
+        <item>square</item>
+        <item>dc/n64/nds/ps1</item>
+        <item>gb/gbc/gg/nes/snes</item>
+        <item>gba</item>
+        <item>psp</item>
+        <item>nds double screen</item>
+        <item>HD standard</item>
+    </string-array>
+
+    <string-array name="scraper_source_array">
+        <!--        <item>IGDB:IGDB</item>-->
+        <item>RAW:PICO-8</item>
+        <item>ARCADE_ITALIA:MAME</item>
+        <item>LIBRETRO:Amstrad - CPC</item>
+        <item>LIBRETRO:Atari - 2600</item>
+        <item>LIBRETRO:Atari - 5200</item>
+        <item>LIBRETRO:Atari - 7800</item>
+        <item>LIBRETRO:Atari - Jaguar</item>
+        <item>LIBRETRO:Atari - Lynx</item>
+        <item>LIBRETRO:Atari - ST</item>
+        <item>LIBRETRO:Bandai - WonderSwan</item>
+        <item>LIBRETRO:Bandai - WonderSwan Color</item>
+        <item>LIBRETRO:Cannonball</item>
+        <item>LIBRETRO:Casio - Loopy</item>
+        <item>LIBRETRO:Casio - PV-1000</item>
+        <item>LIBRETRO:Cave Story</item>
+        <item>LIBRETRO:ChaiLove</item>
+        <item>LIBRETRO:Coleco - ColecoVision</item>
+        <item>LIBRETRO:Commodore - 64</item>
+        <item>LIBRETRO:Commodore - Amiga</item>
+        <item>LIBRETRO:Commodore - Plus-4</item>
+        <item>LIBRETRO:Commodore - VIC-20</item>
+        <item>LIBRETRO:DOOM</item>
+        <item>LIBRETRO:DOS</item>
+        <item>LIBRETRO:Dinothawr</item>
+        <item>LIBRETRO:Emerson - Arcadia 2001</item>
+        <item>LIBRETRO:Entex - Adventure Vision</item>
+        <item>LIBRETRO:Epoch - Super Cassette Vision</item>
+        <item>LIBRETRO:FBNeo - Arcade Games</item>
+        <item>LIBRETRO:Fairchild - Channel F</item>
+        <item>LIBRETRO:Flashback</item>
+        <item>LIBRETRO:Funtech - Super Acan</item>
+        <item>LIBRETRO:GCE - Vectrex</item>
+        <item>LIBRETRO:GamePark - GP32</item>
+        <item>LIBRETRO:Handheld Electronic Game</item>
+        <item>LIBRETRO:Hartung - Game Master</item>
+        <item>LIBRETRO:Jump \'n Bump</item>
+        <item>LIBRETRO:LeapFrog - Leapster Learning Game System</item>
+        <item>LIBRETRO:LowRes NX</item>
+        <item>LIBRETRO:Lutro</item>
+        <item>LIBRETRO:MAME</item>
+        <item>LIBRETRO:Magnavox - Odyssey2</item>
+        <item>LIBRETRO:Mattel - Intellivision</item>
+        <item>LIBRETRO:Microsoft - MSX</item>
+        <item>LIBRETRO:Microsoft - MSX2</item>
+        <item>LIBRETRO:Microsoft - Xbox</item>
+        <item>LIBRETRO:Microsoft - Xbox 360</item>
+        <item>LIBRETRO:MrBoom</item>
+        <item>LIBRETRO:NEC - PC Engine - TurboGrafx 16</item>
+        <item>LIBRETRO:NEC - PC Engine CD - TurboGrafx-CD</item>
+        <item>LIBRETRO:NEC - PC Engine SuperGrafx</item>
+        <item>LIBRETRO:NEC - PC-98</item>
+        <item>LIBRETRO:NEC - PC-FX</item>
+        <item>LIBRETRO:Nintendo - Family Computer Disk System</item>
+        <item>LIBRETRO:Nintendo - Game Boy</item>
+        <item>LIBRETRO:Nintendo - Game Boy Advance</item>
+        <item>LIBRETRO:Nintendo - Game Boy Color</item>
+        <item>LIBRETRO:Nintendo - GameCube</item>
+        <item>LIBRETRO:Nintendo - Nintendo 3DS</item>
+        <item>LIBRETRO:Nintendo - Nintendo 3DS (Digital)</item>
+        <item>LIBRETRO:Nintendo - Nintendo 64</item>
+        <item>LIBRETRO:Nintendo - Nintendo 64DD</item>
+        <item>LIBRETRO:Nintendo - Nintendo DS</item>
+        <item>LIBRETRO:Nintendo - Nintendo DSi</item>
+        <item>LIBRETRO:Nintendo - Nintendo Entertainment System</item>
+        <item>LIBRETRO:Nintendo - Pokemon Mini</item>
+        <item>LIBRETRO:Nintendo - Satellaview</item>
+        <item>LIBRETRO:Nintendo - Sufami Turbo</item>
+        <item>LIBRETRO:Nintendo - Super Nintendo Entertainment System</item>
+        <item>LIBRETRO:Nintendo - Virtual Boy</item>
+        <item>LIBRETRO:Nintendo - Wii</item>
+        <item>LIBRETRO:Nintendo - Wii U</item>
+        <item>LIBRETRO:Philips - Videopac+</item>
+        <item>LIBRETRO:Quake</item>
+        <item>LIBRETRO:Quake II</item>
+        <item>LIBRETRO:Quake III</item>
+        <item>LIBRETRO:Quake III</item>
+        <item>LIBRETRO:Quake III</item>
+        <item>LIBRETRO:RCA - Studio II</item>
+        <item>LIBRETRO:RPG Maker</item>
+        <item>LIBRETRO:Rick Dangerous</item>
+        <item>LIBRETRO:SNK - Neo Geo</item>
+        <item>LIBRETRO:SNK - Neo Geo CD</item>
+        <item>LIBRETRO:SNK - Neo Geo Pocket</item>
+        <item>LIBRETRO:SNK - Neo Geo Pocket Color</item>
+        <item>LIBRETRO:ScummVM</item>
+        <item>LIBRETRO:Sega - 32X</item>
+        <item>LIBRETRO:Sega - Dreamcast</item>
+        <item>LIBRETRO:Sega - Game Gear</item>
+        <item>LIBRETRO:Sega - Master System - Mark III</item>
+        <item>LIBRETRO:Sega - Mega Drive - Genesis</item>
+        <item>LIBRETRO:Sega - Mega-CD - Sega CD</item>
+        <item>LIBRETRO:Sega - PICO</item>
+        <item>LIBRETRO:Sega - SG-1000</item>
+        <item>LIBRETRO:Sega - Saturn</item>
+        <item>LIBRETRO:Sharp - X68000</item>
+        <item>LIBRETRO:Sinclair - ZX 81</item>
+        <item>LIBRETRO:Sinclair - ZX Spectrum</item>
+        <item>LIBRETRO:Sony - PlayStation</item>
+        <item>LIBRETRO:Sony - PlayStation 2</item>
+        <item>LIBRETRO:Sony - PlayStation 3</item>
+        <item>LIBRETRO:Sony - PlayStation 3 (Downloadable)</item>
+        <item>LIBRETRO:Sony - PlayStation 4</item>
+        <item>LIBRETRO:Sony - PlayStation Portable</item>
+        <item>LIBRETRO:Sony - PlayStation Vita</item>
+        <item>LIBRETRO:TIC-80</item>
+        <item>LIBRETRO:The 3DO Company - 3DO</item>
+        <item>LIBRETRO:Thomson - MOTO</item>
+        <item>LIBRETRO:Tiger - Game.com</item>
+        <item>LIBRETRO:Tomb Raider</item>
+        <item>LIBRETRO:VTech - CreatiVision</item>
+        <item>LIBRETRO:VTech - V.Smile</item>
+        <item>LIBRETRO:Watara - Supervision</item>
+        <item>LIBRETRO:Wolfenstein 3D</item>
+    </string-array>
 </resources>
